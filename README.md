@@ -167,7 +167,12 @@ AlphaFold-3 cofolding (>2,000 cofolds) was run on the Alps supercomputer (CSCS, 
 
 **Vibe coding — [Claude Code](https://claude.ai/code) (Anthropic):** dtSFM was built by a domain expert (S.T.R.) with biological and ML conceptual knowledge but no Python programming experience; Claude Code directed all data preprocessing, training, SLURM job management, and evaluation through natural-language prompts.
 
-**Orthogonal verification — two independent referees.** (i) **AlphaFold-3** structurally verifies every binding prediction, sharing no architecture, data, or representation with dtSFM. (ii) **Codex (OpenAI)** independently re-derived every numerical claim in the paper from artifacts committed to this repository prior to audit, with no access to the development sessions. Audit records are in [`audit/`](audit/).
+**Orthogonal verification — two independent referees.**
+
+- **Structural — AlphaFold-3.** Every binding prediction is checked by AlphaFold-3, which shares no architecture, training data, or learned representation with dtSFM; on the candidate sets the dtSFM cosine is essentially uncorrelated with AlphaFold-3 confidence (Pearson *r* ≈ 0), so structural agreement is independent corroboration, not circular confirmation.
+- **Numerical — Codex (OpenAI).** Every quantitative claim in the paper was independently re-derived by a second large language model, in a clean session with access only to the artifacts committed here and no access to the development sessions. The audit closed at **48 PASS / 3 PARTIAL / 0 FAIL**, with no numerical claim found in error, and the four direct leakage measurements reproduced the reported values. Full records: [`audit/`](audit/); claim-to-file map: [`docs/reproducing_paper_claims.md`](docs/reproducing_paper_claims.md); archived data: [DOI 10.5281/zenodo.20581780](https://doi.org/10.5281/zenodo.20581780).
+
+This mirrors the *Orthogonal AI verification* subsection of the paper's Methods.
 
 ---
 
