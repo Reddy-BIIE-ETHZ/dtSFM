@@ -8,6 +8,10 @@ authors:
     email: sai.reddy@ethz.ch
 repository-code: "https://github.com/Reddy-BIIE-ETHZ/dtSFM"
 license: LicenseRef-SFM-Research-Preview-v1.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20581780
+    description: "Zenodo deposit — candidate pools and AlphaFold-3 verification (Paper 1 supplement)"
 preferred-citation:
   type: article
   title: "A drug–target specificity foundation model for off-target prediction, repurposing, and generative design"

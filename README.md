@@ -2,7 +2,7 @@
 
 **Sai T. Reddy** · Department of Biosystems Science and Engineering, ETH Zurich · Botnar Institute of Immune Engineering (BIIE), Basel
 
-[![DOI](https://img.shields.io/badge/DOI-pending-blue)](#citation)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20581780-blue)](https://doi.org/10.5281/zenodo.20581780)
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-pending-red)](#citation)
 [![License](https://img.shields.io/badge/license-SFM%20Research%20Preview-green)](LICENSE.md)
 [![Models on HF](https://img.shields.io/badge/🤗%20Weights-SFM--BIIE--ETHZ%2FdtSFM--v3-yellow)](https://huggingface.co/SFM-BIIE-ETHZ/dtSFM-v3)
