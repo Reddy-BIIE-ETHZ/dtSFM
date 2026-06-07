@@ -3,7 +3,7 @@
 
 Main Paper-1 message, worked backwards: the decoder generates a LARGE pool of
 candidates, many of them as structurally confident (AF3) as the approved drug
-itself. The confident pool for Paper-2 optimization. No selectivity / wet-lab
+itself. The confident pool for downstream optimization. No selectivity / wet-lab
 claims.
 
 FACS-style pooled dot plot (all 16 targets together):

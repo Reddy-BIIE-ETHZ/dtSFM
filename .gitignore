@@ -39,3 +39,6 @@ slurm-*.out
 # IDE
 .vscode/
 .idea/
+
+# keep the README architecture banner
+!figures/fig1_architecture.png

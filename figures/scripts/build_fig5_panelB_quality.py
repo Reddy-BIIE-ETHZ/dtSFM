@@ -10,7 +10,7 @@ dot plot, one dot per generated candidate:
 
 Read-out: every candidate sits well below 0.4 (median 0.22) — novel scaffolds,
 not rediscoveries of marketed drugs. QED is modest (median 0.36): the base
-decoder is not ADMET-optimised — that is Paper 2 (Generative Design Loop).
+decoder is not ADMET-optimised — that is a follow-up generative-design-loop study.
 
 Source: audit/dtsfm/decoder_af3/F5_2_selectivity_reranked.tsv
 Output: dtSFM-Figures/fig5_panelB_quality_PREVIEW.{pdf,png}
