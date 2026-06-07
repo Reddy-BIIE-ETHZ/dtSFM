@@ -46,6 +46,13 @@ Breakdown of the 30 known:
 | Reranked-849 cohort | 3 (dec_MAP2K2_0924, dec_PIK3CA_1134, dec_PIK3CA_1180 — none an anchor) |
 | Anchor-grade structural gate | 25 (incl. the 11 anchor recoveries) |
 
+> **Relation to the manuscript's "regenerated from training data" count.** The
+> paper reports the number of designs that exactly reproduce a *training-set*
+> compound (the memorization metric for a generative model). This PubChem check is
+> a **broader** net — exact-structure matches anywhere in PubChem — so it also
+> counts anchor recovery and known compounds that were never in training. The two
+> numbers measure different things and are not in conflict.
+
 **Conclusion:** every design *reported as a novel candidate* in the manuscript
 (the 17 wet-lab STRONG/MODERATE and the 80-design gallery) is confirmed absent from
 PubChem. The full-cohort known-compound rate is 2.6%, ~⅓ of which is desirable
