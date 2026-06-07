@@ -1,0 +1,10 @@
+target	role	cofold_dir	drug	iptm_global	ptm_global	ranking_score	interface_chain_pair_iptm_0_1	interface_chain_pair_pae_min_A_0_1	fraction_disordered	has_clash	notes
+NLRP3	anchor (gold standard)	f42_002_NLRP3_MCC950	MCC950	0.73	0.59	0.73	0.73	8.38	0.05	0.0	Coll 2015; diaryl-sulfonylurea NACHT ATPase; clinical canonical (Class B per §C MCC950 species-ortholog disclosure)
+NLRP3	top decoder candidate	f42_000_NLRP3_didx39497	drug_idx 39497	0.77	0.6	0.77	0.77	5.96	0.06	0.0	highest-ranked from §5.2 NLRP3 repurposing screen
+NLRP3	negative control	f42_114_NLRP3_Aspirin	Aspirin	0.76	0.58	0.75	0.76	6.9	0.06	0.0	off-target reference (no NLRP3 binding expected)
+CD73	anchor (gold standard)	f42_200_CD73_AB680	AB680	0.95	0.86	0.97	0.95	0.98	0.08	0.0	Arcus Biosciences; phase 1/2 clinical CD73 inhibitor
+CD73	top decoder candidate	f42_115_CD73_didx272410	drug_idx 272410	0.81	0.79	0.85	0.81	3.53	0.08	0.0	highest-ranked from §5.2 CD73 repurposing screen
+CD73	negative control	f42_209_CD73_Aspirin	Aspirin	0.8	0.8	0.84	0.8	4.68	0.08	0.0	off-target reference
+STING1	anchor (gold standard)	f42_317_STING1_MSA-2	MSA-2	0.79	0.57	0.82	0.79	3.16	0.16	0.0	Merck non-nucleotide STING agonist; gold standard small-mol agonist
+STING1	top decoder candidate	f42_210_STING1_didx7088	drug_idx 7088	0.65	0.56	0.71	0.65	7.5	0.16	0.0	highest-ranked from §5.2 STING1 repurposing screen
+STING1	negative control	f42_322_STING1_Aspirin	Aspirin	0.8	0.55	0.83	0.8	3.82	0.15	0.0	off-target reference

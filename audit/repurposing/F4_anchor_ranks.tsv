@@ -1,0 +1,61 @@
+target_label	panel_target	drug_name	tag	panel_class	clinical_stage	drug_idx_v3	rank	cosine	percentile	in_screen_library
+NLRP3	NLRP3	MCC950	gold_standard	B	research_canonical	20138	3.0	0.37123296	99.99942614045021	True
+NLRP3	NLRP3	Inzomelid	clinical	C	phase_2	-1				False
+NLRP3	NLRP3	Dapansutrile	clinical	C	phase_2	-1				False
+NLRP3	NLRP3	NP3-562	clinical	C	phase_1	-1				False
+NLRP3	NLRP3	Tranilast	repurposing_anchor	B	approved_other	304893	6635.0	0.16547146	98.73081396238543	True
+NLRP3	NLRP3	Glyburide	repurposing_anchor	A	approved_other	11409	2936.0	0.18414304	99.4383827872741	True
+NLRP3	NLRP3	CY-09	tool	C	research_tool	-1				False
+NLRP3	NLRP3	BAY-11-7082	tool	C	research_tool	-1				False
+NLRP3	NLRP3	Oridonin	tool	C	research_tool	-1				False
+NLRP3	NLRP3	Parthenolide	tool	C	research_tool	-1				False
+NLRP3	NLRP3	JC124	tool	C	research_tool	-1				False
+NLRP3	NLRP3	Aspirin	negative_control	C	approved_other	-1				False
+NLRP3	NLRP3	Loratadine	negative_control	B	approved_other	61696	123894.0	0.07592387	76.30074831285292	True
+NLRP3	NLRP3	Amoxicillin	negative_control	B	approved_other	219139	219582.0	0.046843976	57.99692411281314	True
+NLRP3	NLRP3	Levothyroxine	negative_control	B	approved_other	42220	345869.0	0.014408299	33.83992379145179	True
+NLRP3	NLRP3	Warfarin	negative_control	B	approved_other	54520	58078.0	0.10521344	88.89046168913646	True
+CD73	CD73	AB680	gold_standard	B	phase_2	511365	503.0	0.3222116	99.9037828821522	True
+CD73	CD73	LY3475070	clinical	A	phase_1	273007	1118.0	0.26911438	99.78614167444564	True
+CD73	CD73	CB-708	clinical	FETCH_FAILED	phase_1	-1				False
+CD73	CD73	AOPCP	gold_standard	B	research_tool	265390	1276.0	0.23392466	99.75591840482349	True
+CD73	CD73	PSB-12379	tool	C	research_tool	-1				False
+CD73	CD73	PSB-12489	tool	FETCH_FAILED	research_tool	-1				False
+CD73	CD73	Dipyridamole	repurposing_anchor	B	approved_other	34932	198556.0	0.008300442	62.01891441076101	True
+CD73	CD73	AMP	natural_ligand	B	natural_ligand	120108	1612.0	0.20478147	99.69164613524721	True
+CD73	CD73	Adenosine	natural_ligand	B	natural_ligand	163	22544.0	0.09322572	95.68763676985937	True
+CD73	CD73	Aspirin	negative_control	C	approved_other	-1				False
+CD73	CD73	Loratadine	negative_control	B	approved_other	61696	430512.0	-0.04919703	17.648859167215026	True
+CD73	CD73	Amoxicillin	negative_control	B	approved_other	219139	65649.0	0.055853605	87.442231471988	True
+CD73	CD73	Levothyroxine	negative_control	B	approved_other	42220	164221.0	0.017828349	68.58673695808531	True
+CD73	CD73	Warfarin	negative_control	B	approved_other	54520	154021.0	0.020926392	70.53785942736468	True
+STING1_aggregate	STING1	MSA-2	gold_standard	C	research_canonical	-1				False
+STING1_aggregate	STING1	diABZI compound 3	gold_standard	C	research_canonical	-1				False
+STING1_aggregate	STING1	ADU-S100	clinical	C	phase_2_discontinued	-1				False
+STING1_aggregate	STING1	MK-1454	clinical	C	phase_2	-1				False
+STING1_aggregate	STING1	BMS-986301	clinical	FETCH_FAILED	phase_1	-1				False
+STING1_aggregate	STING1	SR-717	tool	C	research_tool	-1				False
+STING1_aggregate	STING1	G10	tool	FETCH_FAILED	research_tool	-1				False
+STING1_aggregate	STING1	C-176	tool_antagonist	C	research_tool	-1				False
+STING1_aggregate	STING1	H-151	tool_antagonist	C	research_tool	-1				False
+STING1_aggregate	STING1	2'3'-cGAMP	natural_ligand	C	natural_ligand	-1				False
+STING1_aggregate	STING1	Aspirin	negative_control	C	approved_other	-1				False
+STING1_aggregate	STING1	Loratadine	negative_control	B	approved_other	61696	120067.0	0.07150136	77.0328018118659	True
+STING1_aggregate	STING1	Amoxicillin	negative_control	B	approved_other	219139	322439.0	0.0135055	38.32176687529649	True
+STING1_aggregate	STING1	Levothyroxine	negative_control	B	approved_other	42220	15677.0	0.15974762	97.00120127932422	True
+STING1_aggregate	STING1	Warfarin	negative_control	B	approved_other	54520	178619.0	0.05163759	65.83259369213583	True
+STING1_seqonly	STING1	MSA-2	gold_standard	C	research_canonical	-1				False
+STING1_seqonly	STING1	diABZI compound 3	gold_standard	C	research_canonical	-1				False
+STING1_seqonly	STING1	ADU-S100	clinical	C	phase_2_discontinued	-1				False
+STING1_seqonly	STING1	MK-1454	clinical	C	phase_2	-1				False
+STING1_seqonly	STING1	BMS-986301	clinical	FETCH_FAILED	phase_1	-1				False
+STING1_seqonly	STING1	SR-717	tool	C	research_tool	-1				False
+STING1_seqonly	STING1	G10	tool	FETCH_FAILED	research_tool	-1				False
+STING1_seqonly	STING1	C-176	tool_antagonist	C	research_tool	-1				False
+STING1_seqonly	STING1	H-151	tool_antagonist	C	research_tool	-1				False
+STING1_seqonly	STING1	2'3'-cGAMP	natural_ligand	C	natural_ligand	-1				False
+STING1_seqonly	STING1	Aspirin	negative_control	C	approved_other	-1				False
+STING1_seqonly	STING1	Loratadine	negative_control	B	approved_other	61696	43343.0	0.10441843	91.70906851117878	True
+STING1_seqonly	STING1	Amoxicillin	negative_control	B	approved_other	219139	436699.0	-0.019957438	16.465369489035453	True
+STING1_seqonly	STING1	Levothyroxine	negative_control	B	approved_other	42220	32180.0	0.11333138	93.84439989594013	True
+STING1_seqonly	STING1	Warfarin	negative_control	B	approved_other	54520	325724.0	0.0121853985	37.69339066827857	True

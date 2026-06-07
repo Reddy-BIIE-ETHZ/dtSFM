@@ -1,0 +1,46 @@
+target	drug_name	pubchem_query	citation	mechanism	clinical_stage	tag
+NLRP3	MCC950	MCC950	Coll et al. 2015 Nat Med	diaryl-sulfonylurea NACHT ATPase	research_canonical	gold_standard
+NLRP3	Inzomelid	Inzomelid	Inflazome→Roche; NCT04015076	MCC950 analog	phase_2	clinical
+NLRP3	Dapansutrile	Dapansutrile	Marchetti et al. 2018 PNAS; Olatec	beta-sulfonyl nitrile	phase_2	clinical
+NLRP3	NP3-562	NP3-562	NodThera; NCT05080530	sulfonylurea series	phase_1	clinical
+NLRP3	Tranilast	Tranilast	Huang et al. 2018 EMBO Mol Med	N-cinnamoyl anthranilic acid; NACHT	approved_other	repurposing_anchor
+NLRP3	Glyburide	Glyburide	Lamkanfi et al. 2009 J Cell Biol	sulfonylurea (T2D drug); weak NLRP3	approved_other	repurposing_anchor
+NLRP3	CY-09	CY-09	Jiang et al. 2017 J Exp Med	NACHT ATPase site	research_tool	tool
+NLRP3	BAY-11-7082	BAY-11-7082	Juliana et al. 2010 J Biol Chem	vinyl sulfone; NLRP3 + IKK confound	research_tool	tool
+NLRP3	Oridonin	Oridonin	He et al. 2018 Nat Comm	covalent natural product	research_tool	tool
+NLRP3	Parthenolide	Parthenolide	Juliana et al. 2010 J Biol Chem	sesquiterpene lactone covalent	research_tool	tool
+NLRP3	JC124	JC124	Fulp et al. 2018 J Med Chem	sulfonylurea series	research_tool	tool
+NLRP3	Aspirin	Aspirin	negative control	COX inhibitor	approved_other	negative_control
+NLRP3	Loratadine	Loratadine	negative control	H1 antihistamine	approved_other	negative_control
+NLRP3	Amoxicillin	Amoxicillin	negative control	beta-lactam antibiotic	approved_other	negative_control
+NLRP3	Levothyroxine	Levothyroxine	negative control	thyroid hormone receptor	approved_other	negative_control
+NLRP3	Warfarin	Warfarin	negative control	vitamin K antagonist	approved_other	negative_control
+STING1	MSA-2	MSA-2	Pan et al. 2020 Science	non-CDN agonist	research_canonical	gold_standard
+STING1	diABZI compound 3	diABZI	Ramanjulu et al. 2018 Nature	non-CDN dimer agonist	research_canonical	gold_standard
+STING1	ADU-S100	ADU-S100	Corrales et al. 2015 Cell Reports; NCT02675439	CDN agonist	phase_2_discontinued	clinical
+STING1	MK-1454	MK-1454	Merck; NCT03010176	CDN agonist	phase_2	clinical
+STING1	BMS-986301	BMS-986301	BMS; NCT03956680	non-CDN agonist	phase_1	clinical
+STING1	SR-717	SR-717	Chin et al. 2020 Science	non-CDN single-molecule agonist	research_tool	tool
+STING1	G10	G10 STING agonist	Zhang et al. 2014 Sci Signal	early agonist tool compound	research_tool	tool
+STING1	C-176	STING-IN-2	Haag et al. 2018 Nature	covalent antagonist	research_tool	tool_antagonist
+STING1	H-151	STING-IN-3	Haag et al. 2018 Nature	covalent antagonist	research_tool	tool_antagonist
+STING1	2'3'-cGAMP	cGAMP	Wu et al. 2013 Science	endogenous CDN ligand	natural_ligand	natural_ligand
+STING1	Aspirin	Aspirin	negative control	COX inhibitor	approved_other	negative_control
+STING1	Loratadine	Loratadine	negative control	H1 antihistamine	approved_other	negative_control
+STING1	Amoxicillin	Amoxicillin	negative control	beta-lactam antibiotic	approved_other	negative_control
+STING1	Levothyroxine	Levothyroxine	negative control	thyroid hormone receptor	approved_other	negative_control
+STING1	Warfarin	Warfarin	negative control	vitamin K antagonist	approved_other	negative_control
+CD73	AB680	quemliclustat	Lawson et al. 2020 J Med Chem; NCT04104672	methylenebisphosphonate substrate-mimetic	phase_2	gold_standard
+CD73	LY3475070	LY3475070	Lilly; NCT04148937	nucleotide analog	phase_1	clinical
+CD73	CB-708	CB-708	Calithera; NCT04572152	non-nucleotide	phase_1	clinical
+CD73	AOPCP	APCP	Strater 2006 review	classical biochemistry K_i ~1 uM	research_tool	gold_standard
+CD73	PSB-12379	PSB-12379	Bhattarai et al. 2020 J Med Chem	Bonn group research	research_tool	tool
+CD73	PSB-12489	PSB-12489	Bhattarai et al. 2020 J Med Chem	Bonn group research	research_tool	tool
+CD73	Dipyridamole	Dipyridamole	approved antiplatelet/vasodilator	weak CD73 binding (off-target)	approved_other	repurposing_anchor
+CD73	AMP	adenosine 5'-monophosphate	natural substrate	endogenous substrate (not inhibitor)	natural_ligand	natural_ligand
+CD73	Adenosine	Adenosine	natural product	endogenous post-hydrolysis product	natural_ligand	natural_ligand
+CD73	Aspirin	Aspirin	negative control	COX inhibitor	approved_other	negative_control
+CD73	Loratadine	Loratadine	negative control	H1 antihistamine	approved_other	negative_control
+CD73	Amoxicillin	Amoxicillin	negative control	beta-lactam antibiotic	approved_other	negative_control
+CD73	Levothyroxine	Levothyroxine	negative control	thyroid hormone receptor	approved_other	negative_control
+CD73	Warfarin	Warfarin	negative control	vitamin K antagonist	approved_other	negative_control

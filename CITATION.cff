@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use dtSFM, please cite the following."
+title: "dtSFM — A Drug–Target Specificity Foundation Model"
+authors:
+  - family-names: Reddy
+    given-names: Sai T.
+    affiliation: "Department of Biosystems Science and Engineering, ETH Zurich; Botnar Institute of Immune Engineering (BIIE), Basel"
+    email: sai.reddy@ethz.ch
+repository-code: "https://github.com/Reddy-BIIE-ETHZ/dtSFM"
+license: LicenseRef-SFM-Research-Preview-v1.0
+preferred-citation:
+  type: article
+  title: "A drug–target specificity foundation model for off-target prediction, repurposing, and generative design"
+  authors:
+    - family-names: Reddy
+      given-names: Sai T.
+  journal: bioRxiv
+  year: 2026
+  doi: PENDING

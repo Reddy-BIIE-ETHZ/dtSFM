@@ -1,0 +1,5 @@
+target	n_top100	class_A_count	class_A_frac	class_B_count	class_B_frac	class_C_count	class_C_frac	class_other_count
+NLRP3	100	78	0.78	22	0.22	0	0.0	0
+CD73	100	100	1.0	0	0.0	0	0.0	0
+STING1_aggregate	100	6	0.06	94	0.94	0	0.0	0
+STING1_seqonly	100	91	0.91	9	0.09	0	0.0	0

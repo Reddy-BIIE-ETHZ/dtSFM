@@ -1,0 +1,7 @@
+{
+  "a": 0.6231409031738687,
+  "b": 3.035368934886858,
+  "n_fit_class_A": 3619,
+  "fit_residual_rms_log10Kd": 1.2311482250409158,
+  "interpretation": "Predictions are scaled by 0.623 and shifted by +3.035 to match measured pK_d on Class A pairs."
+}

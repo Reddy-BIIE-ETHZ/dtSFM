@@ -1,0 +1,19 @@
+{
+  "epoch_loaded": 10,
+  "wall_time_sec": 3747.725662469864,
+  "n_pairs_total": 82389,
+  "n_unique_drugs": 10828,
+  "n_unique_proteins": 1594,
+  "etkdg_failures": 517,
+  "molformer_failures": 0,
+  "esm2_failures": 0,
+  "inference_status_counts": {
+    "ok": 81667,
+    "etkdg_fail": 722
+  },
+  "per_source_n": {
+    "klaeger": 4345,
+    "davis": 25772,
+    "bindingdb": 52272
+  }
+}

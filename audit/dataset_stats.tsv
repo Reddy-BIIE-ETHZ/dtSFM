@@ -1,0 +1,12 @@
+metric	value	source	method
+total_pairs	714747	metadata_v3.csv	row count (minus header)
+pdbbind_pairs	19037	metadata_v3.csv	source_tier == 1.0
+sair_pairs	695710	metadata_v3.csv	source_tier == 1.5
+unique_drugs	522776	metadata_v3.csv	nunique(drug_smiles) == nunique(drug_idx)
+unique_proteins	22964	metadata_v3.csv	nunique(protein_idx)
+train_pairs	592888	split_index/train_pair_idx.parquet	row count
+val_pairs	65951	split_index/val_pair_idx.parquet	row count
+test_pairs	55908	split_index/test_pair_idx.parquet	row count
+val_classA_exact_pair	0	pair_leakage.tsv	exact (drug,protein) pairs also in train
+val_classB_drug_seen	24753	split_index x metadata join	val pairs whose drug_idx is in train drug set
+val_classC_drug_novel	41198	split_index x metadata join	val pairs whose drug_idx is NOT in train drug set

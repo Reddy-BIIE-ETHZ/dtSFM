@@ -1,0 +1,16 @@
+# dtSFM — minimal pip requirements (see environment.yml for the conda env).
+# Pin to the versions used for the paper; relax as needed for your platform.
+torch==2.5.1
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+pyyaml
+hydra-core
+sentencepiece
+transformers==4.56.2
+rdkit               # SMILES, Morgan fingerprints, Tanimoto, Lipinski Ro5
+fair-esm            # ESM-2-650M protein backbone
+huggingface_hub     # download SFM-BIIE-ETHZ/dtSFM-v3 weights
+wandb               # optional: training logging

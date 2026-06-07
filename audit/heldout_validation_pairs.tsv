@@ -1,0 +1,25 @@
+drug_name	pubchem_cid	smiles	target_uniprot	target_name	pdb_complex	holdout_purpose	source_publication
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	Q06187	BTK	(none required)	primary_target_for_selectivity_validation_M3	Xiao 2020 Circulation
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P41240	CSK	(none required)	off_target_AF_mechanism	Xiao 2020 Circulation
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P04626	ERBB2	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	Q15303	ERBB4	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P42680	TEC	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P51813	BMX	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	Q08881	ITK	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P08631	HCK	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P09769	FGR	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P07948	LYN	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P06241	FYN	(none required)	off_target_panel	Berglof 2015
+ibrutinib	24821094	C=CC(=O)N1CCC[C@@H](C1)n1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc21	P07947	YES1	(none required)	off_target_panel	Berglof 2015
+acalabrutinib	71226662	CC#Cc1nc(Nc2ccc(OC(=O)N3CCC[C@@H]3C)cc2)c2n1ccn(C)c2=O	Q06187	BTK	(none required)	selectivity_comparison_to_ibrutinib	Xiao 2020 Circulation
+acalabrutinib	71226662	CC#Cc1nc(Nc2ccc(OC(=O)N3CCC[C@@H]3C)cc2)c2n1ccn(C)c2=O	P41240	CSK	(none required)	selectivity_comparison_to_ibrutinib	Xiao 2020 Circulation
+LY2090314	10029385	C1CCN(CC1)C(=O)N2CCN3C=C(C4=CC(=CC(=C43)F)C5=C(C(=O)NC5=O)C6=CN=C7N6C=CC=C7)C2	A0A125YY75	TgGSK3	9HVX	M3_case_study_LY2090314_TgGSK3	Diaz-Martin 2025 Nat Comm
+sunitinib	5329102	CCN(CC)CCNC(=O)c1c(C)c(/C=C2\C(=O)Nc3ccc(F)cc32)[nH]c1C	Q13131	AMPK alpha-1	(none required)	M3_case_study_AMPK_cardiotoxicity	Kerkela 2009 CTS
+ponatinib	24826799	Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12	Q9H2G2	SLK	(none required)	M3_case_study_ponatinib_cardiotoxicity	Cancer Research 2022
+ponatinib	24826799	Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12	O43318	TAK1 (MAP3K7)	(none required)	M3_case_study_ponatinib_cardiotoxicity	Cancer Research 2022
+ponatinib	24826799	Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12	P52333	JAK3	(none required)	M3_case_study_ponatinib_cardiotoxicity	Cancer Research 2022
+ponatinib	24826799	Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12	Q92772	CDKL2	(none required)	M3_case_study_ponatinib_cardiotoxicity	Cancer Research 2022
+ponatinib	24826799	Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12	Q00536	PCTK1 (CDK16)	(none required)	M3_case_study_ponatinib_cardiotoxicity	Cancer Research 2022
+dasatinib	3062316	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	P09619	PDGFR-beta	(none required)	M3_case_study_pleural_effusion	Frontiers 2023
+dasatinib	3062316	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	P12931	SRC	(none required)	M3_case_study_pleural_effusion	Frontiers 2023
+sorafenib	216239	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	P04049	RAF-1 (CRAF)	(none required)	M3_case_study_sorafenib_cardiotoxicity	references in Brennan 2024

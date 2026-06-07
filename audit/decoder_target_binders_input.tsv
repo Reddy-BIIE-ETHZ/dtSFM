@@ -1,0 +1,52 @@
+target_group	target_gene	drug_name	indication	clinical_stage
+BTK	BTK	ibrutinib	CLL/MCL/Waldenstrom	approved
+BTK	BTK	acalabrutinib	CLL/MCL	approved
+BTK	BTK	zanubrutinib	CLL/MCL	approved
+BTK	BTK	pirtobrutinib	CLL (non-covalent)	approved
+EGFR	EGFR	gefitinib	NSCLC	approved
+EGFR	EGFR	erlotinib	NSCLC	approved
+EGFR	EGFR	lapatinib	HER2+ breast/NSCLC	approved
+EGFR	EGFR	afatinib	NSCLC	approved
+EGFR	EGFR	osimertinib	NSCLC T790M	approved
+EGFR	EGFR	dacomitinib	NSCLC	approved
+CDK4_6	CDK4	palbociclib	HR+ breast	approved
+CDK4_6	CDK6	palbociclib	HR+ breast	approved
+CDK4_6	CDK4	ribociclib	HR+ breast	approved
+CDK4_6	CDK6	ribociclib	HR+ breast	approved
+CDK4_6	CDK4	abemaciclib	HR+ breast	approved
+CDK4_6	CDK6	abemaciclib	HR+ breast	approved
+JAK_family	JAK1	tofacitinib	rheumatoid arthritis	approved
+JAK_family	JAK2	tofacitinib	rheumatoid arthritis	approved
+JAK_family	JAK3	tofacitinib	rheumatoid arthritis	approved
+JAK_family	JAK1	ruxolitinib	myelofibrosis	approved
+JAK_family	JAK2	ruxolitinib	myelofibrosis	approved
+JAK_family	JAK1	baricitinib	rheumatoid arthritis	approved
+JAK_family	JAK2	baricitinib	rheumatoid arthritis	approved
+JAK_family	JAK1	upadacitinib	rheumatoid arthritis	approved
+JAK_family	TYK2	deucravacitinib	psoriasis (TYK2-selective)	approved
+JAK_family	JAK2	fedratinib	myelofibrosis	approved
+ALK	ALK	crizotinib	NSCLC ALK+	approved
+ALK	ALK	alectinib	NSCLC ALK+	approved
+ALK	ALK	brigatinib	NSCLC ALK+	approved
+ALK	ALK	lorlatinib	NSCLC ALK+	approved
+ALK	ALK	ceritinib	NSCLC ALK+	approved
+PARP1_2	PARP1	olaparib	BRCA-mutated cancers	approved
+PARP1_2	PARP2	olaparib	BRCA-mutated cancers	approved
+PARP1_2	PARP1	niraparib	ovarian cancer	approved
+PARP1_2	PARP1	rucaparib	BRCA-mutated cancers	approved
+PARP1_2	PARP1	talazoparib	BRCA-mutated cancers	approved
+MEK1_2	MAP2K1	trametinib	melanoma BRAF-mutant	approved
+MEK1_2	MAP2K2	trametinib	melanoma BRAF-mutant	approved
+MEK1_2	MAP2K1	cobimetinib	melanoma	approved
+MEK1_2	MAP2K2	cobimetinib	melanoma	approved
+MEK1_2	MAP2K1	binimetinib	melanoma	approved
+MEK1_2	MAP2K1	selumetinib	neurofibromatosis type 1	approved
+PI3K	PIK3CA	alpelisib	HR+/HER2- PIK3CA-mutated breast	approved
+PI3K	PIK3CA	idelalisib	CLL (PI3Kdelta selective)	approved
+PI3K	PIK3CA	copanlisib	follicular lymphoma	approved
+PI3K	PIK3CA	inavolisib	HR+ PIK3CA-mutated breast	approved
+FXIa	F11	milvexian	stroke prevention	phase III
+FXIa	F11	asundexian	stroke prevention	phase III
+FLT3	FLT3	midostaurin	AML	approved
+FLT3	FLT3	gilteritinib	AML FLT3-ITD	approved
+FLT3	FLT3	quizartinib	AML FLT3-ITD	approved

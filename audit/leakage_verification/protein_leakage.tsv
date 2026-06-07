@@ -1,0 +1,3 @@
+split	n_unique_proteins	n_proteins_in_train	frac_proteins_in_train	n_unique_clusters	n_clusters_in_train	frac_clusters_in_train	VERDICT_protein	VERDICT_cluster
+val	2296	0	0.0	2296	0	0.0	PASS (0 overlap)	PASS (0 overlap)
+test	2296	0	0.0	2296	0	0.0	PASS (0 overlap)	PASS (0 overlap)

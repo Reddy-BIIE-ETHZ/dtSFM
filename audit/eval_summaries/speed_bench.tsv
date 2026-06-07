@@ -1,0 +1,5 @@
+batch_size	n_trials	n_pairs_total	wall_sec	ms_per_batch	ms_per_pair	pairs_per_sec	gpu_mem_peak_gb	regime
+1	50	50	0.4262	8.5243	8.524327	117.3	0.1	amortized (precomputed MoLFormer + ESM-2 embeddings)
+16	50	800	1.2462	24.9245	1.557781	641.9	0.59	amortized (precomputed MoLFormer + ESM-2 embeddings)
+64	50	3200	4.9611	99.2225	1.550352	645.0	2.26	amortized (precomputed MoLFormer + ESM-2 embeddings)
+128	50	6400	10.0944	201.8886	1.577255	634.0	4.61	amortized (precomputed MoLFormer + ESM-2 embeddings)

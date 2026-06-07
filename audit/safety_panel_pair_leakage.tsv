@@ -1,0 +1,101 @@
+drug_name	drug_smiles_canonical	off_target_gene	is_intended_target	drug_in_training	gene_in_training	n_training_pdbs_for_gene	drug_paired_with_gene_in_training	n_training_pairs_drug_x_gene	n_training_pairs_drug_total	n_training_pairs_gene_total	leakage_class	notes
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	BTK	True	False	True	53	False	0	0	9294	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	BMX	False	False	True	1	False	0	0	254	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	BLK	False	False	True	1	False	0	0	198	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	EGFR	False	False	True	82	False	0	0	9426	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	ERBB2	False	False	True	3	False	0	0	2950	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	ERBB4	False	False	True	3	False	0	0	229	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	FGR	False	False	True	1	False	0	0	69	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	FYN	False	False	True	4	False	0	0	786	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	HCK	False	False	True	11	False	0	0	449	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	ITK	False	False	True	30	False	0	0	1299	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	JAK3	False	False	True	34	False	0	0	4894	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	LCK	False	False	True	24	False	0	0	1735	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	LYN	False	False	True	2	False	0	0	377	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	RIPK2	False	False	True	16	False	0	0	704	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	SRC	False	False	True	77	False	0	0	3547	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	TEC	False	False	True	1	False	0	0	275	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	TXK	False	False	True	1	False	0	0	393	C	drug-OOD (SMILES not in training)
+ibrutinib	C=CC(=O)N1CCC[C@H]1c1nc(-c2ccc(Oc3ccccc3)cc2)c2c(N)ncnc12	YES1	False	False	True	1	False	0	0	128	C	drug-OOD (SMILES not in training)
+acalabrutinib	Cc1cnc(C(=O)Nc2ccc(C(=O)c3cccnc3)cc2)cn1	BTK	True	False	True	53	False	0	0	9294	C	drug-OOD (SMILES not in training)
+acalabrutinib	Cc1cnc(C(=O)Nc2ccc(C(=O)c3cccnc3)cc2)cn1	TEC	False	False	True	1	False	0	0	275	C	drug-OOD (SMILES not in training)
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	ABL1	True	True	True	21	False	0	16	21	B	drug seen in 16 training pairs (with other proteins); gene has 21 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	ABL2	False	True	True	2	False	0	16	2	B	drug seen in 16 training pairs (with other proteins); gene has 2 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	KIT	True	True	True	8	False	0	16	2159	B	drug seen in 16 training pairs (with other proteins); gene has 8 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	PDGFRA	True	True	True	1	False	0	16	577	B	drug seen in 16 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	PDGFRB	True	True	True	1	True	1	16	2446	A	(1 (drug, PDGFRB) training pairs — drop from retrospective claim)
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	DDR1	False	True	True	13	False	0	16	1513	B	drug seen in 16 training pairs (with other proteins); gene has 13 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	DDR2	False	True	True	2	True	1	16	291	A	(1 (drug, DDR2) training pairs — drop from retrospective claim)
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	LCK	False	True	True	24	False	0	16	1735	B	drug seen in 16 training pairs (with other proteins); gene has 24 PDBs in training (with other drugs); this specific pair NOT in training
+imatinib	Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1	CSK	False	True	True	1	False	0	16	97	B	drug seen in 16 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	ABL1	True	True	True	21	False	0	33	21	B	drug seen in 33 training pairs (with other proteins); gene has 21 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	SRC	True	True	True	77	True	1	33	3547	A	(1 (drug, SRC) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	FYN	False	True	True	4	True	1	33	786	A	(1 (drug, FYN) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	LYN	False	True	True	2	True	1	33	377	A	(1 (drug, LYN) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	LCK	False	True	True	24	True	1	33	1735	A	(1 (drug, LCK) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	HCK	False	True	True	11	False	0	33	449	B	drug seen in 33 training pairs (with other proteins); gene has 11 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	FGR	False	True	True	1	False	0	33	69	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	BLK	False	True	True	1	False	0	33	198	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	YES1	False	True	True	1	True	1	33	128	A	(1 (drug, YES1) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	KIT	False	True	True	8	True	1	33	2159	A	(1 (drug, KIT) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	PDGFRB	False	True	True	1	True	1	33	2446	A	(1 (drug, PDGFRB) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA2	False	True	True	31	False	0	33	524	B	drug seen in 33 training pairs (with other proteins); gene has 31 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA3	False	True	True	6	False	0	33	22	B	drug seen in 33 training pairs (with other proteins); gene has 6 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA4	False	True	True	4	False	0	33	15	B	drug seen in 33 training pairs (with other proteins); gene has 4 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA5	False	True	True	1	False	0	33	5	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA6	False	True	True	1	False	0	33	4	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA7	False	True	True	1	False	0	33	11	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHA8	False	True	True	1	False	0	33	11	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHB1	False	True	True	3	False	0	33	11	B	drug seen in 33 training pairs (with other proteins); gene has 3 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHB2	False	True	True	2	True	1	33	44	A	(1 (drug, EPHB2) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHB3	False	True	True	3	False	0	33	48	B	drug seen in 33 training pairs (with other proteins); gene has 3 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHB4	False	True	True	16	False	0	33	831	B	drug seen in 33 training pairs (with other proteins); gene has 16 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	EPHB6	False	True	True	1	False	0	33	3	B	drug seen in 33 training pairs (with other proteins); gene has 1 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	DDR1	False	True	True	13	False	0	33	1513	B	drug seen in 33 training pairs (with other proteins); gene has 13 PDBs in training (with other drugs); this specific pair NOT in training
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	DDR2	False	True	True	2	True	1	33	291	A	(1 (drug, DDR2) training pairs — drop from retrospective claim)
+dasatinib	Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1	CSK	False	True	True	1	True	1	33	97	A	(1 (drug, CSK) training pairs — drop from retrospective claim)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	ABL1	True	False	True	21	False	0	0	21	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	KIT	False	False	True	8	False	0	0	2159	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FGFR1	False	False	True	30	False	0	0	3359	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FGFR2	False	False	True	3	False	0	0	2374	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FGFR3	False	False	True	1	False	0	0	1929	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FGFR4	False	False	True	16	False	0	0	1845	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FLT3	False	False	True	2	False	0	0	3075	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	RET	False	False	True	8	False	0	0	3937	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FLT1	False	False	True	2	False	0	0	937	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	KDR	False	False	True	28	False	0	0	8785	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	FLT4	False	False	True	1	False	0	0	438	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	LYN	False	False	True	2	False	0	0	377	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	SRC	False	False	True	77	False	0	0	3547	C	drug-OOD (SMILES not in training)
+ponatinib	C#Cc1cc(-c2cc3c(N)ncnc3n2C)ccc1C(=O)Nc1ccc(CN2CCN(C)CC2)c(C(F)(F)F)c1	TEK	False	False	True	6	False	0	0	754	C	drug-OOD (SMILES not in training)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	FLT1	True	True	True	2	True	1	32	937	A	(1 (drug, FLT1) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	KDR	True	True	True	28	True	1	32	8785	A	(1 (drug, KDR) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	FLT4	True	True	True	1	True	1	32	438	A	(1 (drug, FLT4) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	KIT	True	True	True	8	True	1	32	2159	A	(1 (drug, KIT) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	FLT3	True	True	True	2	True	1	32	3075	A	(1 (drug, FLT3) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	PDGFRA	True	True	True	1	True	1	32	577	A	(1 (drug, PDGFRA) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	PDGFRB	True	True	True	1	True	1	32	2446	A	(1 (drug, PDGFRB) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	RET	True	True	True	8	True	1	32	3937	A	(1 (drug, RET) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	CSF1R	False	True	True	12	True	1	32	2136	A	(1 (drug, CSF1R) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	PRKAA1	False	True	False	0	False	0	32	0	C	gene-OOD (no PDBs in training)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	PRKAA2	False	True	True	4	True	1	32	22	A	(1 (drug, PRKAA2) training pairs — drop from retrospective claim)
+sunitinib	CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C	RIPK2	False	True	True	16	False	0	32	704	B	drug seen in 32 training pairs (with other proteins); gene has 16 PDBs in training (with other drugs); this specific pair NOT in training
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	BRAF	True	True	True	49	True	1	47	4120	A	(1 (drug, BRAF) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	RAF1	True	True	True	1	True	1	47	1961	A	(1 (drug, RAF1) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	KDR	True	True	True	28	True	1	47	8785	A	(1 (drug, KDR) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	FLT4	True	True	True	1	True	1	47	438	A	(1 (drug, FLT4) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	KIT	True	True	True	8	True	1	47	2159	A	(1 (drug, KIT) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	FLT3	False	True	True	2	True	1	47	3075	A	(1 (drug, FLT3) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	PDGFRB	False	True	True	1	True	1	47	2446	A	(1 (drug, PDGFRB) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	RET	False	True	True	8	True	1	47	3937	A	(1 (drug, RET) training pairs — drop from retrospective claim)
+sorafenib	CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1	FGFR1	False	True	True	30	True	1	47	3359	A	(1 (drug, FGFR1) training pairs — drop from retrospective claim)
+gefitinib	COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1	EGFR	True	True	True	82	False	0	15	9426	B	drug seen in 15 training pairs (with other proteins); gene has 82 PDBs in training (with other drugs); this specific pair NOT in training
+gefitinib	COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1	ERBB2	False	True	True	3	True	1	15	2950	A	(1 (drug, ERBB2) training pairs — drop from retrospective claim)
+gefitinib	COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1	ERBB4	False	True	True	3	True	1	15	229	A	(1 (drug, ERBB4) training pairs — drop from retrospective claim)
+gefitinib	COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1	RIPK2	False	True	True	16	False	0	15	704	B	drug seen in 15 training pairs (with other proteins); gene has 16 PDBs in training (with other drugs); this specific pair NOT in training
+erlotinib	C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1	EGFR	True	True	True	82	False	0	17	9426	B	drug seen in 17 training pairs (with other proteins); gene has 82 PDBs in training (with other drugs); this specific pair NOT in training
+erlotinib	C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1	ERBB2	False	True	True	3	True	1	17	2950	A	(1 (drug, ERBB2) training pairs — drop from retrospective claim)
+crizotinib	C[C@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1cc(Cl)ccc1F	ALK	True	False	True	36	False	0	0	2015	C	drug-OOD (SMILES not in training)
+crizotinib	C[C@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1cc(Cl)ccc1F	ROS1	True	False	True	2	False	0	0	2	C	drug-OOD (SMILES not in training)
+crizotinib	C[C@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1cc(Cl)ccc1F	MET	True	False	True	61	False	0	0	3791	C	drug-OOD (SMILES not in training)
+crizotinib	C[C@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1cc(Cl)ccc1F	MST1R	False	False	True	1	False	0	0	133	C	drug-OOD (SMILES not in training)

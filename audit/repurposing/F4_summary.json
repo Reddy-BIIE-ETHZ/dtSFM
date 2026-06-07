@@ -1,0 +1,920 @@
+{
+  "per_target": {
+    "NLRP3": {
+      "screen_csv": "/cluster/scratch/reddys/dtsfm_v3/runs/repurposing_screen_20260508_153846/screen_nlrp3.csv",
+      "n_drugs_screened": 522776,
+      "cosine_max": 0.37955272,
+      "cosine_rank100": 0.31432208,
+      "cosine_rank1000": 0.2077114,
+      "cosine_rank10000": 0.15532392,
+      "cosine_median": 0.035866278,
+      "cosine_min": -0.1437944,
+      "topk_breakdown": {
+        "10": {
+          "A": 9,
+          "B": 1
+        },
+        "50": {
+          "A": 42,
+          "B": 8
+        },
+        "100": {
+          "A": 78,
+          "B": 22
+        },
+        "500": {
+          "A": 203,
+          "B": 297
+        },
+        "1000": {
+          "A": 215,
+          "B": 785
+        }
+      },
+      "anchor_lookup": [
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "MCC950",
+          "tag": "gold_standard",
+          "panel_class": "B",
+          "clinical_stage": "research_canonical",
+          "drug_idx_v3": 20138,
+          "rank": 3,
+          "cosine": 0.37123296,
+          "percentile": 99.99942614045021,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Inzomelid",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Dapansutrile",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "NP3-562",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_1",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Tranilast",
+          "tag": "repurposing_anchor",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 304893,
+          "rank": 6635,
+          "cosine": 0.16547146,
+          "percentile": 98.73081396238543,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Glyburide",
+          "tag": "repurposing_anchor",
+          "panel_class": "A",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 11409,
+          "rank": 2936,
+          "cosine": 0.18414304,
+          "percentile": 99.4383827872741,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "CY-09",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "BAY-11-7082",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Oridonin",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Parthenolide",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "JC124",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Aspirin",
+          "tag": "negative_control",
+          "panel_class": "C",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Loratadine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 61696,
+          "rank": 123894,
+          "cosine": 0.07592387,
+          "percentile": 76.30074831285292,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Amoxicillin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 219139,
+          "rank": 219582,
+          "cosine": 0.046843976,
+          "percentile": 57.99692411281314,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Levothyroxine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 42220,
+          "rank": 345869,
+          "cosine": 0.014408299,
+          "percentile": 33.83992379145179,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "NLRP3",
+          "panel_target": "NLRP3",
+          "drug_name": "Warfarin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 54520,
+          "rank": 58078,
+          "cosine": 0.10521344,
+          "percentile": 88.89046168913646,
+          "in_screen_library": true
+        }
+      ]
+    },
+    "CD73": {
+      "screen_csv": "/cluster/scratch/reddys/dtsfm_v3/runs/repurposing_screen_20260508_153846/screen_cd73.csv",
+      "n_drugs_screened": 522776,
+      "cosine_max": 0.41071895,
+      "cosine_rank100": 0.35318345,
+      "cosine_rank1000": 0.2857779,
+      "cosine_rank10000": 0.12115129,
+      "cosine_median": -0.007452493,
+      "cosine_min": -0.17535308,
+      "topk_breakdown": {
+        "10": {
+          "A": 10,
+          "B": 0
+        },
+        "50": {
+          "A": 50,
+          "B": 0
+        },
+        "100": {
+          "A": 100,
+          "B": 0
+        },
+        "500": {
+          "A": 499,
+          "B": 1
+        },
+        "1000": {
+          "A": 995,
+          "B": 5
+        }
+      },
+      "anchor_lookup": [
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "AB680",
+          "tag": "gold_standard",
+          "panel_class": "B",
+          "clinical_stage": "phase_2",
+          "drug_idx_v3": 511365,
+          "rank": 503,
+          "cosine": 0.3222116,
+          "percentile": 99.9037828821522,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "LY3475070",
+          "tag": "clinical",
+          "panel_class": "A",
+          "clinical_stage": "phase_1",
+          "drug_idx_v3": 273007,
+          "rank": 1118,
+          "cosine": 0.26911438,
+          "percentile": 99.78614167444564,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "CB-708",
+          "tag": "clinical",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "phase_1",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "AOPCP",
+          "tag": "gold_standard",
+          "panel_class": "B",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": 265390,
+          "rank": 1276,
+          "cosine": 0.23392466,
+          "percentile": 99.75591840482349,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "PSB-12379",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "PSB-12489",
+          "tag": "tool",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Dipyridamole",
+          "tag": "repurposing_anchor",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 34932,
+          "rank": 198556,
+          "cosine": 0.008300442,
+          "percentile": 62.01891441076101,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "AMP",
+          "tag": "natural_ligand",
+          "panel_class": "B",
+          "clinical_stage": "natural_ligand",
+          "drug_idx_v3": 120108,
+          "rank": 1612,
+          "cosine": 0.20478147,
+          "percentile": 99.69164613524721,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Adenosine",
+          "tag": "natural_ligand",
+          "panel_class": "B",
+          "clinical_stage": "natural_ligand",
+          "drug_idx_v3": 163,
+          "rank": 22544,
+          "cosine": 0.09322572,
+          "percentile": 95.68763676985937,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Aspirin",
+          "tag": "negative_control",
+          "panel_class": "C",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Loratadine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 61696,
+          "rank": 430512,
+          "cosine": -0.04919703,
+          "percentile": 17.648859167215026,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Amoxicillin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 219139,
+          "rank": 65649,
+          "cosine": 0.055853605,
+          "percentile": 87.442231471988,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Levothyroxine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 42220,
+          "rank": 164221,
+          "cosine": 0.017828349,
+          "percentile": 68.58673695808531,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "CD73",
+          "panel_target": "CD73",
+          "drug_name": "Warfarin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 54520,
+          "rank": 154021,
+          "cosine": 0.020926392,
+          "percentile": 70.53785942736468,
+          "in_screen_library": true
+        }
+      ]
+    },
+    "STING1_aggregate": {
+      "screen_csv": "/cluster/scratch/reddys/dtsfm_v3/runs/repurposing_screen_20260508_153846/screen_sting1_aggregate.csv",
+      "n_drugs_screened": 522776,
+      "cosine_max": 0.35148168,
+      "cosine_rank100": 0.32234937,
+      "cosine_rank1000": 0.28500736,
+      "cosine_rank10000": 0.18441209,
+      "cosine_median": 0.029007039999999998,
+      "cosine_min": -0.16909948,
+      "topk_breakdown": {
+        "10": {
+          "A": 2,
+          "B": 8
+        },
+        "50": {
+          "A": 2,
+          "B": 48
+        },
+        "100": {
+          "A": 6,
+          "B": 94
+        },
+        "500": {
+          "A": 7,
+          "B": 493
+        },
+        "1000": {
+          "A": 7,
+          "B": 993
+        }
+      },
+      "anchor_lookup": [
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "MSA-2",
+          "tag": "gold_standard",
+          "panel_class": "C",
+          "clinical_stage": "research_canonical",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "diABZI compound 3",
+          "tag": "gold_standard",
+          "panel_class": "C",
+          "clinical_stage": "research_canonical",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "ADU-S100",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2_discontinued",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "MK-1454",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "BMS-986301",
+          "tag": "clinical",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "phase_1",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "SR-717",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "G10",
+          "tag": "tool",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "C-176",
+          "tag": "tool_antagonist",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "H-151",
+          "tag": "tool_antagonist",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "2'3'-cGAMP",
+          "tag": "natural_ligand",
+          "panel_class": "C",
+          "clinical_stage": "natural_ligand",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "Aspirin",
+          "tag": "negative_control",
+          "panel_class": "C",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "Loratadine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 61696,
+          "rank": 120067,
+          "cosine": 0.07150136,
+          "percentile": 77.0328018118659,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "Amoxicillin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 219139,
+          "rank": 322439,
+          "cosine": 0.0135055,
+          "percentile": 38.32176687529649,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "Levothyroxine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 42220,
+          "rank": 15677,
+          "cosine": 0.15974762,
+          "percentile": 97.00120127932422,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_aggregate",
+          "panel_target": "STING1",
+          "drug_name": "Warfarin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 54520,
+          "rank": 178619,
+          "cosine": 0.05163759,
+          "percentile": 65.83259369213583,
+          "in_screen_library": true
+        }
+      ]
+    },
+    "STING1_seqonly": {
+      "screen_csv": "/cluster/scratch/reddys/dtsfm_v3/runs/repurposing_screen_20260508_153846/screen_sting1_seqonly.csv",
+      "n_drugs_screened": 522776,
+      "cosine_max": 0.346611,
+      "cosine_rank100": 0.28818697,
+      "cosine_rank1000": 0.19900432,
+      "cosine_rank10000": 0.14282921,
+      "cosine_median": 0.028075693999999998,
+      "cosine_min": -0.18505463,
+      "topk_breakdown": {
+        "10": {
+          "A": 10,
+          "B": 0
+        },
+        "50": {
+          "A": 45,
+          "B": 5
+        },
+        "100": {
+          "A": 91,
+          "B": 9
+        },
+        "500": {
+          "A": 182,
+          "B": 318
+        },
+        "1000": {
+          "A": 196,
+          "B": 804
+        }
+      },
+      "anchor_lookup": [
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "MSA-2",
+          "tag": "gold_standard",
+          "panel_class": "C",
+          "clinical_stage": "research_canonical",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "diABZI compound 3",
+          "tag": "gold_standard",
+          "panel_class": "C",
+          "clinical_stage": "research_canonical",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "ADU-S100",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2_discontinued",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "MK-1454",
+          "tag": "clinical",
+          "panel_class": "C",
+          "clinical_stage": "phase_2",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "BMS-986301",
+          "tag": "clinical",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "phase_1",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "SR-717",
+          "tag": "tool",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "G10",
+          "tag": "tool",
+          "panel_class": "FETCH_FAILED",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "C-176",
+          "tag": "tool_antagonist",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "H-151",
+          "tag": "tool_antagonist",
+          "panel_class": "C",
+          "clinical_stage": "research_tool",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "2'3'-cGAMP",
+          "tag": "natural_ligand",
+          "panel_class": "C",
+          "clinical_stage": "natural_ligand",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "Aspirin",
+          "tag": "negative_control",
+          "panel_class": "C",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": -1,
+          "rank": null,
+          "cosine": null,
+          "percentile": null,
+          "in_screen_library": false
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "Loratadine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 61696,
+          "rank": 43343,
+          "cosine": 0.10441843,
+          "percentile": 91.70906851117878,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "Amoxicillin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 219139,
+          "rank": 436699,
+          "cosine": -0.019957438,
+          "percentile": 16.465369489035453,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "Levothyroxine",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 42220,
+          "rank": 32180,
+          "cosine": 0.11333138,
+          "percentile": 93.84439989594013,
+          "in_screen_library": true
+        },
+        {
+          "target_label": "STING1_seqonly",
+          "panel_target": "STING1",
+          "drug_name": "Warfarin",
+          "tag": "negative_control",
+          "panel_class": "B",
+          "clinical_stage": "approved_other",
+          "drug_idx_v3": 54520,
+          "rank": 325724,
+          "cosine": 0.0121853985,
+          "percentile": 37.69339066827857,
+          "in_screen_library": true
+        }
+      ]
+    }
+  }
+}

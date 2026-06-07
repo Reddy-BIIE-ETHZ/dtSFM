@@ -1,0 +1,16 @@
+target	drug_name	leakage_class	iptm	interface_pae_min	af3_pass_combined
+ALK	lorlatinib	A	0.99	0.85	True
+BTK	acalabrutinib	A	0.96	0.88	True
+CDK4	palbociclib	A	0.95	0.87	True
+CDK6	palbociclib	B	0.96	0.82	True
+EGFR	afatinib	A	0.97	1.07	True
+F11	asundexian	B	0.97	0.85	True
+FLT3	midostaurin	A	0.95	1.16	True
+JAK1	tofacitinib	A	0.96	1.41	True
+JAK2	tofacitinib	A	0.97	1.11	True
+JAK3	tofacitinib	A	0.97	1.06	True
+MAP2K1	trametinib	B	0.97	0.85	True
+MAP2K2	trametinib	A	0.97	0.86	True
+PARP1	talazoparib	A	0.98	0.92	True
+PARP2	olaparib	A	0.98	0.81	True
+PIK3CA	alpelisib	A	0.98	0.87	True

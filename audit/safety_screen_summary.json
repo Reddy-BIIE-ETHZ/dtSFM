@@ -1,0 +1,389 @@
+{
+  "per_drug": {
+    "ibrutinib": {
+      "n_genes_in_pool": 0,
+      "by_class": {
+        "A": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "B": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "C": {
+          "n_total": 18,
+          "n_ranked": 0
+        }
+      }
+    },
+    "acalabrutinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "B": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "C": {
+          "n_total": 2,
+          "n_ranked": 2,
+          "median_rank": 2791.0,
+          "mean_rank": 2791.0,
+          "top10": 0,
+          "top50": 0,
+          "top100": 0,
+          "top500": 0,
+          "all_ranks": [
+            2429,
+            3153
+          ]
+        }
+      }
+    },
+    "imatinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 2,
+          "n_ranked": 2,
+          "median_rank": 46.0,
+          "mean_rank": 46.0,
+          "top10": 1,
+          "top50": 1,
+          "top100": 2,
+          "top500": 2,
+          "all_ranks": [
+            3,
+            89
+          ]
+        },
+        "B": {
+          "n_total": 7,
+          "n_ranked": 7,
+          "median_rank": 39.0,
+          "mean_rank": 52.42857142857143,
+          "top10": 0,
+          "top50": 4,
+          "top100": 6,
+          "top500": 7,
+          "all_ranks": [
+            12,
+            21,
+            32,
+            39,
+            77,
+            79,
+            107
+          ]
+        },
+        "C": {
+          "n_total": 0,
+          "n_ranked": 0
+        }
+      }
+    },
+    "dasatinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 10,
+          "n_ranked": 10,
+          "median_rank": 16.5,
+          "mean_rank": 33.1,
+          "top10": 4,
+          "top50": 8,
+          "top100": 9,
+          "top500": 10,
+          "all_ranks": [
+            1,
+            2,
+            8,
+            10,
+            15,
+            18,
+            21,
+            24,
+            96,
+            136
+          ]
+        },
+        "B": {
+          "n_total": 16,
+          "n_ranked": 16,
+          "median_rank": 28.5,
+          "mean_rank": 47.5,
+          "top10": 4,
+          "top50": 13,
+          "top100": 15,
+          "top500": 16,
+          "all_ranks": [
+            3,
+            4,
+            5,
+            7,
+            14,
+            17,
+            26,
+            28,
+            29,
+            30,
+            36,
+            41,
+            48,
+            58,
+            83,
+            331
+          ]
+        },
+        "C": {
+          "n_total": 0,
+          "n_ranked": 0
+        }
+      }
+    },
+    "ponatinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "B": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "C": {
+          "n_total": 14,
+          "n_ranked": 14,
+          "median_rank": 22.0,
+          "mean_rank": 30.214285714285715,
+          "top10": 4,
+          "top50": 11,
+          "top100": 14,
+          "top500": 14,
+          "all_ranks": [
+            2,
+            4,
+            6,
+            8,
+            12,
+            15,
+            16,
+            28,
+            35,
+            39,
+            46,
+            57,
+            66,
+            89
+          ]
+        }
+      }
+    },
+    "sunitinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 10,
+          "n_ranked": 10,
+          "median_rank": 25.0,
+          "mean_rank": 24.1,
+          "top10": 4,
+          "top50": 10,
+          "top100": 10,
+          "top500": 10,
+          "all_ranks": [
+            1,
+            3,
+            7,
+            10,
+            23,
+            27,
+            31,
+            42,
+            47,
+            50
+          ]
+        },
+        "B": {
+          "n_total": 1,
+          "n_ranked": 1,
+          "median_rank": 137.0,
+          "mean_rank": 137.0,
+          "top10": 0,
+          "top50": 0,
+          "top100": 0,
+          "top500": 1,
+          "all_ranks": [
+            137
+          ]
+        },
+        "C": {
+          "n_total": 1,
+          "n_ranked": 0
+        }
+      }
+    },
+    "sorafenib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 9,
+          "n_ranked": 9,
+          "median_rank": 23.0,
+          "mean_rank": 38.111111111111114,
+          "top10": 3,
+          "top50": 7,
+          "top100": 8,
+          "top500": 9,
+          "all_ranks": [
+            2,
+            4,
+            7,
+            15,
+            23,
+            34,
+            47,
+            58,
+            153
+          ]
+        },
+        "B": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "C": {
+          "n_total": 0,
+          "n_ranked": 0
+        }
+      }
+    },
+    "gefitinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 2,
+          "n_ranked": 2,
+          "median_rank": 3.5,
+          "mean_rank": 3.5,
+          "top10": 2,
+          "top50": 2,
+          "top100": 2,
+          "top500": 2,
+          "all_ranks": [
+            3,
+            4
+          ]
+        },
+        "B": {
+          "n_total": 2,
+          "n_ranked": 2,
+          "median_rank": 33.0,
+          "mean_rank": 33.0,
+          "top10": 1,
+          "top50": 1,
+          "top100": 2,
+          "top500": 2,
+          "all_ranks": [
+            5,
+            61
+          ]
+        },
+        "C": {
+          "n_total": 0,
+          "n_ranked": 0
+        }
+      }
+    },
+    "erlotinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 1,
+          "n_ranked": 1,
+          "median_rank": 5.0,
+          "mean_rank": 5.0,
+          "top10": 1,
+          "top50": 1,
+          "top100": 1,
+          "top500": 1,
+          "all_ranks": [
+            5
+          ]
+        },
+        "B": {
+          "n_total": 1,
+          "n_ranked": 1,
+          "median_rank": 6.0,
+          "mean_rank": 6.0,
+          "top10": 1,
+          "top50": 1,
+          "top100": 1,
+          "top500": 1,
+          "all_ranks": [
+            6
+          ]
+        },
+        "C": {
+          "n_total": 0,
+          "n_ranked": 0
+        }
+      }
+    },
+    "crizotinib": {
+      "n_genes_in_pool": 4910,
+      "by_class": {
+        "A": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "B": {
+          "n_total": 0,
+          "n_ranked": 0
+        },
+        "C": {
+          "n_total": 4,
+          "n_ranked": 4,
+          "median_rank": 14.0,
+          "mean_rank": 13.25,
+          "top10": 1,
+          "top50": 4,
+          "top100": 4,
+          "top500": 4,
+          "all_ranks": [
+            1,
+            12,
+            16,
+            24
+          ]
+        }
+      }
+    }
+  },
+  "headline_class_b": {
+    "n_pairs_total": 27,
+    "n_drugs_contributing": 5,
+    "drugs": [
+      "dasatinib",
+      "erlotinib",
+      "gefitinib",
+      "imatinib",
+      "sunitinib"
+    ],
+    "median_rank": 30.0,
+    "mean_rank": 49.48148148148148,
+    "top10_count": 6,
+    "top10_pct": 0.2222222222222222,
+    "top50_count": 19,
+    "top50_pct": 0.7037037037037037,
+    "top100_count": 24,
+    "top100_pct": 0.8888888888888888,
+    "top500_count": 27,
+    "top500_pct": 1.0
+  },
+  "headline_all": {}
+}

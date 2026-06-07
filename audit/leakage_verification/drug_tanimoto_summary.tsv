@@ -1,0 +1,3 @@
+split	n_drugs	max_tan_mean	max_tan_median	max_tan_p25	max_tan_p75	n_above_0.7	n_above_0.9	n_exact_match
+val	4999	0.7105	0.6944	0.4624	1.0	2481	1874	1844
+test	4995	0.7131	0.6964	0.472	1.0	2487	1903	1874

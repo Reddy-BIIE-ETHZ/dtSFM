@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "dtSFM v3 — candidate pools and AlphaFold-3 verification (Paper 1 supplement)",
+    "creators": [
+      {
+        "name": "Reddy, Sai T.",
+        "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich; Botnar Institute of Immune Engineering (BIIE), Basel",
+        "orcid": "0000-0002-9805-1859"
+      }
+    ],
+    "description": "<p>Supplementary data for the drug–target specificity foundation model (dtSFM) Paper 1: <em>A drug–target specificity foundation model for off-target prediction, repurposing, and generative design</em>.</p><p>This deposit contains the large data artifacts that back the paper's claims but are too large for the GitHub code repository (<a href=\"https://github.com/Reddy-BIIE-ETHZ/dtSFM\">github.com/Reddy-BIIE-ETHZ/dtSFM</a>): the full library-repurposing rankings, the generative-design candidate cohort with per-design SMILES and AlphaFold-3 structural-confidence profiles, the AlphaFold-3 cofold structures (CIF + summary confidences) for representative complexes, the affinity-calibration cohorts, and the atpE pilot deliverable. Model weights are distributed separately on Hugging Face (<a href=\"https://huggingface.co/SFM-BIIE-ETHZ/dtSFM-v3\">SFM-BIIE-ETHZ/dtSFM-v3</a>). All numerical claims are traceable via docs/reproducing_paper_claims.md in the code repository; the closed orthogonal (Codex) audit is in audit/.</p><p>The specific molecules disclosed here are dedicated to the public.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "drug-target interaction",
+      "specificity foundation model",
+      "molecular recognition",
+      "AlphaFold-3",
+      "generative drug design",
+      "drug repurposing",
+      "off-target prediction",
+      "cheminformatics"
+    ],
+    "related_identifiers": [
+      {
+        "relation": "isSupplementTo",
+        "identifier": "10.0000/PENDING-biorxiv-dtsfm-paper1",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      },
+      {
+        "relation": "isSupplementedBy",
+        "identifier": "https://github.com/Reddy-BIIE-ETHZ/dtSFM",
+        "resource_type": "software",
+        "scheme": "url"
+      },
+      {
+        "relation": "isSupplementedBy",
+        "identifier": "https://huggingface.co/SFM-BIIE-ETHZ/dtSFM-v3",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "notes": "Commercial-use and patent-licensing terms for the dtSFM architecture and training methods are deferred and being arranged with ETH Zürich / BIIE. The molecules in this deposit are dedicated to the public. Contact sai.reddy@ethz.ch."
+  }
+}

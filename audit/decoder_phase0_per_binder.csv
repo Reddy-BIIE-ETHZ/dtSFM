@@ -1,0 +1,52 @@
+target_group	target_gene	drug_name	drug_idx	leakage_class	resolution_method	cosine	z_vs_baseline	status
+BTK	BTK	ibrutinib	13219	B	strict_canonical	0.243140310049057	3.7259871446062403	ok
+BTK	BTK	acalabrutinib	68692	A	strict_canonical	0.2664543092250824	4.095049280493531	ok
+BTK	BTK	zanubrutinib	14310	A	strict_canonical	0.232749804854393	3.561504765965939	ok
+BTK	BTK	pirtobrutinib	-1	C	miss			drug_not_in_training
+EGFR	EGFR	gefitinib	100441	B	strict_canonical	0.2266463041305542	3.1671678349018992	ok
+EGFR	EGFR	erlotinib	70592	B	strict_canonical	0.22362762689590454	3.1182393235315695	ok
+EGFR	EGFR	lapatinib	100686	B	strict_canonical	0.24559956789016724	3.4743735774445312	ok
+EGFR	EGFR	afatinib	133493	A	strict_canonical	0.2209121733903885	3.0742256422425647	ok
+EGFR	EGFR	osimertinib	97547	B	strict_canonical	0.2515065670013428	3.5701177232108217	ok
+EGFR	EGFR	dacomitinib	135270	A	strict_canonical	0.2287711799144745	3.2016090821345298	ok
+CDK4_6	CDK4	palbociclib	236319	A	strict_canonical	0.2932698130607605	4.718784446088659	ok
+CDK4_6	CDK6	palbociclib	236319	B	strict_canonical	0.28338104486465454	4.636342775437708	ok
+CDK4_6	CDK4	ribociclib	236644	A	strict_canonical	0.3292912244796753	5.31147547452279	ok
+CDK4_6	CDK6	ribociclib	236644	B	strict_canonical	0.29658132791519165	4.857951513644849	ok
+CDK4_6	CDK4	abemaciclib	23763	B	strict_canonical	0.2868508994579315	4.613168581667177	ok
+CDK4_6	CDK6	abemaciclib	23763	B	strict_canonical	0.31042903661727905	5.090429350732197	ok
+JAK_family	JAK1	tofacitinib	4551	A	strict_canonical	0.18155814707279205	2.795418877866755	ok
+JAK_family	JAK2	tofacitinib	4551	A	strict_canonical	0.1824950873851776	2.500685927321713	ok
+JAK_family	JAK3	tofacitinib	4551	A	strict_canonical	0.2221699357032776	3.2222918557452025	ok
+JAK_family	JAK1	ruxolitinib	278506	A	strict_canonical	0.2427959442138672	3.75710639931524	ok
+JAK_family	JAK2	ruxolitinib	278506	B	strict_canonical	0.2248890995979309	3.111057647233485	ok
+JAK_family	JAK1	baricitinib	9485	A	strict_canonical	0.22889870405197144	3.538862062154009	ok
+JAK_family	JAK2	baricitinib	9485	B	strict_canonical	0.22857965528964996	3.1641927648458514	ok
+JAK_family	JAK1	upadacitinib	25635	A	strict_canonical	0.19923511147499084	3.073020569572303	ok
+JAK_family	TYK2	deucravacitinib	-1	C	miss			drug_not_in_training
+JAK_family	JAK2	fedratinib	284384	B	strict_canonical	0.20693087577819824	2.8525024554200207	ok
+ALK	ALK	crizotinib	136711	B	strict_canonical	0.24855610728263855	4.2550783970986075	ok
+ALK	ALK	alectinib	100339	B	strict_canonical	0.3072490692138672	5.351231831161751	ok
+ALK	ALK	brigatinib	178833	B	strict_canonical	0.2612154483795166	4.49150504451468	ok
+ALK	ALK	lorlatinib	7056	A	strict_canonical	0.2928481101989746	5.082278618398807	ok
+ALK	ALK	ceritinib	39306	B	strict_canonical	0.25986605882644653	4.466303760684093	ok
+PARP1_2	PARP1	olaparib	9563	B	strict_canonical	0.3032734990119934	4.853120253771098	ok
+PARP1_2	PARP2	olaparib	9563	A	strict_canonical	0.27009087800979614	4.605979091264073	ok
+PARP1_2	PARP1	niraparib	60969	B	strict_canonical	0.26668503880500793	4.242716762398661	ok
+PARP1_2	PARP1	rucaparib	60963	B	strict_canonical	0.24451805651187897	3.8729060814251675	ok
+PARP1_2	PARP1	talazoparib	9335	A	strict_canonical	0.26897287368774414	4.280884599804381	ok
+MEK1_2	MAP2K1	trametinib	355308	B	strict_canonical	0.31732916831970215	5.586741804970402	ok
+MEK1_2	MAP2K2	trametinib	355308	A	strict_canonical	0.3094444274902344	5.497585174687594	ok
+MEK1_2	MAP2K1	cobimetinib	355315	B	strict_canonical	0.23196697235107422	4.003729339067784	ok
+MEK1_2	MAP2K2	cobimetinib	355315	A	strict_canonical	0.2324075996875763	4.051786098193364	ok
+MEK1_2	MAP2K1	binimetinib	-1	C	miss			drug_not_in_training
+MEK1_2	MAP2K1	selumetinib	-1	C	miss			drug_not_in_training
+PI3K	PIK3CA	alpelisib	8016	A	strict_canonical	0.25590622425079346	3.9245966083680717	ok
+PI3K	PIK3CA	idelalisib	17860	A	strict_canonical	0.17780239880084991	2.595045184872572	ok
+PI3K	PIK3CA	copanlisib	-1	C	miss			drug_not_in_training
+PI3K	PIK3CA	inavolisib	-1	C	miss			drug_not_in_training
+FXIa	F11	milvexian	-1	C	miss			drug_not_in_training
+FXIa	F11	asundexian	160627	B	strict_canonical	0.29497596621513367	5.4421758623828795	ok
+FLT3	FLT3	midostaurin	66491	A	strict_canonical	0.14960989356040955	1.690566109732199	ok
+FLT3	FLT3	gilteritinib	-1	C	miss			drug_not_in_training
+FLT3	FLT3	quizartinib	43544	B	strict_canonical	0.27974915504455566	3.506660869829218	ok

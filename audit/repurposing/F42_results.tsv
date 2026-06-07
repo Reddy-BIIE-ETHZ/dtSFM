@@ -1,0 +1,324 @@
+cohort_idx	sample_name	target	stratum	drug_idx	drug_name	drug_smiles	expected_class	tag	cosine	rank	synthetic_rank	iptm	ptm	ranking_score	has_clash	fraction_disordered	interface_pae_min
+0	f42_000_NLRP3_didx39497	NLRP3	top50_cosine	39497		Cc1cc(C(C)C)ccc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.37955272	1.0		0.77	0.6	0.77	0.0	0.06	5.96
+1	f42_001_NLRP3_didx39538	NLRP3	top50_cosine	39538		Cc1ccc(C(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N(C(C)C)C(C)C)co1	A		0.37200794	2.0		0.7	0.64	0.71	0.0	0.05	6.67
+2	f42_002_NLRP3_MCC950	NLRP3	top50_cosine	20138	MCC950	CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)c1	B	gold_standard	0.37123296	3.0		0.73	0.59	0.73	0.0	0.05	8.38
+3	f42_003_NLRP3_didx39695	NLRP3	top50_cosine	39695		CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)n1	A		0.37118194	4.0		0.68	0.6	0.69	0.0	0.05	8.34
+4	f42_004_NLRP3_didx39800	NLRP3	top50_cosine	39800		CCS(=O)(=O)Cc1csc(/C=C/S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)n1	A		0.37106276	5.0		0.63	0.59	0.65	0.0	0.05	11.14
+5	f42_005_NLRP3_didx39468	NLRP3	top50_cosine	39468		CS(=O)(=O)NC(=O)c1cnc(Nc2c3c(cc4c2CCC4)CCC3)o1	A		0.3705396	6.0		0.8	0.66	0.8	0.0	0.05	4.36
+6	f42_006_NLRP3_didx39843	NLRP3	top50_cosine	39843		O=c1[nH]c(N2CCOCC2)nc2nn(-c3ccc(C4CC4)cc3C(F)F)cc12	A		0.36507115	7.0		0.73	0.62	0.74	0.0	0.06	6.8
+7	f42_007_NLRP3_didx39848	NLRP3	top50_cosine	39848		O=c1[nH]c(N2CCOCCO2)nc2nn(-c3ccc(C4CC4)cc3C(F)(F)F)cc12	A		0.3645497	8.0		0.79	0.62	0.79	0.0	0.06	5.59
+8	f42_008_NLRP3_didx39535	NLRP3	top50_cosine	39535		Cc1ccc(C(C)C)cc1Nc1nc(C(=O)NS(=O)(=O)N(C)Cc2ccccn2)co1	A		0.3624943	9.0		0.62	0.64	0.65	0.0	0.05	9.98
+9	f42_009_NLRP3_didx39515	NLRP3	top50_cosine	39515		Cc1cc(C2CC2)ccc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.36158532	10.0		0.64	0.6	0.66	0.0	0.05	9.07
+10	f42_010_NLRP3_didx39793	NLRP3	top50_cosine	39793		CCOC(=O)c1nnc(Nc2c3c(cc4c2CCC4)CCC3)o1	A		0.36047322	11.0		0.69	0.65	0.71	0.0	0.06	7.7
+11	f42_011_NLRP3_didx39696	NLRP3	top50_cosine	39696		CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4O)CCC3)c1	A		0.35798076	12.0		0.73	0.59	0.72	0.0	0.05	7.02
+12	f42_012_NLRP3_didx39462	NLRP3	top50_cosine	39462		COc1ccc(C(C)C)c(Nc2nc(C(=O)NS(=O)(=O)N3CCCOCC3)co2)c1	A		0.3570591	13.0		0.69	0.6	0.7	0.0	0.06	8.89
+13	f42_013_NLRP3_didx20137	NLRP3	top50_cosine	20137		CC(C)(C)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)c1	B		0.35564047	14.0		0.7	0.57	0.7	0.0	0.05	9.28
+14	f42_014_NLRP3_didx39430	NLRP3	top50_cosine	39430		CNc1nc2nn(-c3c(C)cc(C4CC4)cc3C)cc2c(=O)[nH]1	A		0.35500392	15.0		0.77	0.58	0.76	0.0	0.05	5.32
+15	f42_015_NLRP3_didx39524	NLRP3	top50_cosine	39524		Cc1cc(OC(F)F)cc(C)c1-n1cc2c(=O)[nH]c(N3CCOCC3=O)nc2n1	A		0.35424364	16.0		0.69	0.64	0.71	0.0	0.05	7.13
+16	f42_016_NLRP3_didx39694	NLRP3	top50_cosine	39694		CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CC(O)C4)CCC3)c1	A		0.35298046	17.0		0.79	0.59	0.78	0.0	0.05	5.46
+17	f42_017_NLRP3_didx39708	NLRP3	top50_cosine	39708		CC(C)OC(=O)[C@H](Cc1ncccn1)OC(=O)Nc1c2c(cc3c1CCC3)CCC2	A		0.35240296	18.0		0.69	0.6	0.7	0.0	0.05	7.85
+18	f42_018_NLRP3_didx39520	NLRP3	top50_cosine	39520		Cc1cc(N2CCC2)cc(C)c1-n1cc2c(=O)[nH]c(N3CCOCC3)nc2n1	A		0.3517592	19.0		0.73	0.6	0.73	0.0	0.06	6.29
+19	f42_019_NLRP3_didx39572	NLRP3	top50_cosine	39572		Cc1ccc(CC(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N2CCCOCC2)co1	A		0.35155618	20.0		0.68	0.6	0.69	0.0	0.05	9.48
+20	f42_020_NLRP3_didx39505	NLRP3	top50_cosine	39505		Cc1cc(C)cc(-n2cc3c(=O)[nH]c(N4CCCC4)nc3n2)c1	A		0.34886035	21.0		0.68	0.65	0.7	0.0	0.06	7.67
+21	f42_021_NLRP3_didx39511	NLRP3	top50_cosine	39511		Cc1cc(C2CC2)cc(Cl)c1-n1cc2c(=O)[nH]c(N3CC4CC(C3)O4)nc2n1	A		0.34874958	22.0		0.77	0.6	0.76	0.0	0.06	5.69
+22	f42_022_NLRP3_didx39697	NLRP3	top50_cosine	39697		CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CC[C@@H]4O)CCC3)c1	A		0.3485091	23.0		0.74	0.59	0.74	0.0	0.05	6.67
+23	f42_023_NLRP3_didx39738	NLRP3	top50_cosine	39738		CC(C)c1cn(C(C)C)nc1Nc1nc(C(=O)NS(=O)(=O)N2CCOCCC2C)co1	A		0.34831595	24.0		0.78	0.6	0.77	0.0	0.05	5.83
+24	f42_024_NLRP3_didx39698	NLRP3	top50_cosine	39698		CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CC[C@H]4O)CCC3)c1	A		0.3481982	25.0		0.75	0.59	0.74	0.0	0.05	6.21
+25	f42_025_NLRP3_didx20174	NLRP3	top50_cosine	20174		CCCNS(=O)(=O)c1ccc2c(c1)CC(N(Cc1cc(Cl)ccc1OCCOC)C(=O)C(C)(C)C)C2	B		0.3448844	26.0		0.65	0.58	0.66	0.0	0.05	7.69
+26	f42_026_NLRP3_didx39734	NLRP3	top50_cosine	39734		CC(C)c1ccccc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.3446057	27.0		0.71	0.6	0.72	0.0	0.06	7.27
+27	f42_027_NLRP3_didx39805	NLRP3	top50_cosine	39805		CCc1ccc(-n2cc3c(=O)[nH]c(N4CCCC4)nc3n2)c(C)c1	A		0.3445979	28.0		0.62	0.6	0.64	0.0	0.05	9.34
+28	f42_028_NLRP3_didx39784	NLRP3	top50_cosine	39784		CCOC(=O)C(Cc1ncccn1)OC(=O)Nc1c2c(cc3c1CCC3)CCC2	A		0.3444505	29.0		0.69	0.61	0.7	0.0	0.05	7.56
+29	f42_029_NLRP3_didx20167	NLRP3	top50_cosine	20167		CCCNS(=O)(=O)c1ccc2c(c1)CC(N(Cc1cc(Cl)ccc1OCCC)C(=O)Cc1ccsc1)C2	B		0.34429726	30.0		0.9	0.6	0.87	0.0	0.06	2.46
+30	f42_030_NLRP3_didx39802	NLRP3	top50_cosine	39802		CC[S+]([O-])Cc1csc(/C=C/S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)n1	A		0.34384826	31.0		0.75	0.6	0.74	0.0	0.05	7.05
+31	f42_031_NLRP3_didx39737	NLRP3	top50_cosine	39737		CC(C)c1cn(C(C)C)nc1Nc1nc(C(=O)NS(=O)(=O)N2CCCOCC2)co1	A		0.3437821	32.0		0.78	0.6	0.77	0.0	0.05	5.59
+32	f42_032_NLRP3_didx39836	NLRP3	top50_cosine	39836		O=c1[nH]c(N2CCCC2CO)nc2nn(-c3ccc(C(F)(F)F)cc3Cl)cc12	A		0.3425547	33.0		0.81	0.65	0.81	0.0	0.05	4.76
+33	f42_033_NLRP3_didx39484	NLRP3	top50_cosine	39484		Cc1cc(Br)cc(C)c1-n1cc2c(=O)[nH]c(NCCF)nc2n1	A		0.34246528	34.0		0.69	0.6	0.7	0.0	0.05	7.27
+34	f42_034_NLRP3_didx39554	NLRP3	top50_cosine	39554		Cc1ccc(C(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N2CCC(c3ccccc3)CC2)co1	A		0.3422906	35.0		0.62	0.59	0.64	0.0	0.06	11.75
+35	f42_035_NLRP3_didx39542	NLRP3	top50_cosine	39542		Cc1ccc(C(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N(C)CC2CCCC2)co1	A		0.34194067	36.0		0.73	0.64	0.74	0.0	0.05	6.38
+36	f42_036_NLRP3_didx39509	NLRP3	top50_cosine	39509		Cc1cc(C2CC2)cc(C)c1-n1cc2c(=O)[nH]c(N3CCC3)nc2n1	A		0.3413967	37.0		0.64	0.6	0.65	0.0	0.05	8.69
+37	f42_037_NLRP3_didx19926	NLRP3	top50_cosine	19926		C#CCNS(=O)(=O)c1ccc(CCN(Cc2ccccc2OCCC)C(=O)Cc2ccsc2)cc1	B		0.33813742	38.0		0.81	0.6	0.8	0.0	0.06	4.62
+38	f42_038_NLRP3_didx39736	NLRP3	top50_cosine	39736		CC(C)c1cn(C(C)C)nc1Nc1nc(C(=O)NS(=O)(=O)N2CCCC2)co1	A		0.3378353	39.0		0.79	0.6	0.79	0.0	0.06	5.22
+39	f42_039_NLRP3_didx39500	NLRP3	top50_cosine	39500		Cc1cc(C(F)(F)F)cnc1-n1cc2c(=O)[nH]c(N3CC(F)(F)C3)nc2n1	A		0.33690274	40.0		0.66	0.62	0.68	0.0	0.05	7.88
+40	f42_040_NLRP3_didx39847	NLRP3	top50_cosine	39847		O=c1[nH]c(N2CCOCC2)nc2nn(-c3ccc(OC(F)F)cc3C(F)(F)F)cc12	A		0.33676755	41.0		0.88	0.63	0.86	0.0	0.06	2.81
+41	f42_041_NLRP3_didx19896	NLRP3	top50_cosine	19896		C#CCNS(=O)(=O)c1ccc(CCN(Cc2cc(Br)ccc2OCCC)C(=O)Cc2ccsc2)cc1	B		0.3359012	42.0		0.73	0.59	0.73	0.0	0.06	6.14
+42	f42_042_NLRP3_didx39575	NLRP3	top50_cosine	39575		Cc1cccc(-n2cc3c(=O)[nH]c(N4CCCC4)nc3n2)c1	A		0.3339756	43.0		0.8	0.65	0.8	0.0	0.05	5.1
+43	f42_043_NLRP3_didx20178	NLRP3	top50_cosine	20178		CCCNS(=O)(=O)c1ccc2c(c1)CC(N(Cc1cc(Cl)ccc1OCCOC)C(=O)CBr)C2	B		0.33317742	44.0		0.8	0.6	0.79	0.0	0.06	4.56
+44	f42_044_NLRP3_didx20177	NLRP3	top50_cosine	20177		CCCNS(=O)(=O)c1ccc2c(c1)CC(N(Cc1cc(Cl)ccc1OCCOC)C(=O)C1CCOCC1)C2	B		0.33306178	45.0		0.77	0.59	0.76	0.0	0.05	5.54
+45	f42_045_NLRP3_didx39733	NLRP3	top50_cosine	39733		CC(C)c1ccc(C(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N2CCCN(C)CC2)co1	A		0.33244956	46.0		0.88	0.68	0.87	0.0	0.05	3.01
+46	f42_046_NLRP3_didx39508	NLRP3	top50_cosine	39508		Cc1cc(C2CC2)cc(C(F)(F)F)c1-n1cc2c(=O)[nH]c(N3CCOCC3)nc2n1	A		0.33202213	47.0		0.7	0.61	0.71	0.0	0.05	6.77
+47	f42_047_NLRP3_didx39420	NLRP3	top50_cosine	39420		CN(C(=O)N=S(N)(=O)c1cnc(C(C)(C)O)s1)c1c2c(cc3c1CCC3)CCC2	A		0.3320196	48.0		0.66	0.65	0.68	0.0	0.05	9.31
+48	f42_048_NLRP3_didx39699	NLRP3	top50_cosine	39699		CC(C)(O)c1csc(S(N)(=O)=NC(=O)Nc2c3c(c(C#N)c4c2CCC4)CCC3)c1	A		0.33145472	49.0		0.61	0.61	0.64	0.0	0.06	11.79
+49	f42_049_NLRP3_didx39496	NLRP3	top50_cosine	39496		Cc1cc(C#N)ccc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.33126187	50.0		0.73	0.58	0.73	0.0	0.05	7.05
+50	f42_050_NLRP3_didx39689	NLRP3	scaffold_div	39689		CC(C)(C)c1ccc(-n2cc3c(=O)[nH]c(N4CCOCC4)nc3n2)c(Br)c1	A		0.33125886	51.0		0.75	0.6	0.75	0.0	0.06	5.87
+51	f42_051_NLRP3_didx39513	NLRP3	scaffold_div	39513		Cc1cc(C2CC2)cc(F)c1-n1cc2c(=O)[nH]c(N3CCOCC3)nc2n1	A		0.33085406	52.0		0.77	0.6	0.77	0.0	0.06	5.99
+52	f42_052_NLRP3_didx20194	NLRP3	scaffold_div	20194		CCCNS(=O)(=O)c1ccc2c(c1)CC(N(Cc1cc(Cl)ccc1OCCOC)C(=O)c1cccs1)C2	B		0.33076447	53.0		0.89	0.69	0.88	0.0	0.05	3.01
+53	f42_053_NLRP3_didx39562	NLRP3	scaffold_div	39562		Cc1ccc(C(F)(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)NC(C)C)co1	A		0.33074713	54.0		0.7	0.67	0.72	0.0	0.06	7.38
+54	f42_054_NLRP3_didx39595	NLRP3	scaffold_div	39595		Cc1ncc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)s1	A		0.3305157	55.0		0.63	0.62	0.66	0.0	0.06	10.15
+55	f42_055_NLRP3_didx39529	NLRP3	scaffold_div	39529		Cc1ccc(-n2cc3c(=O)[nH]c(N4CCCC4)nc3n2)c(Cl)c1	A		0.33039275	56.0		0.74	0.65	0.75	0.0	0.06	5.91
+56	f42_056_NLRP3_didx39702	NLRP3	scaffold_div	39702		CC(C)(O)c1ncc(S(N)(=O)=NC(=O)Nc2c3c(c(C#N)c4c2CCC4)CCC3)s1	A		0.32903838	59.0		0.68	0.59	0.7	0.0	0.06	9.36
+57	f42_057_NLRP3_didx39776	NLRP3	scaffold_div	39776		CCCS(=O)(=O)N1CCCN(S(=O)(=O)NC(=O)c2coc(Nc3cc(CC)ccc3CC)n2)CC1	A		0.32789636	61.0		0.69	0.64	0.71	0.0	0.06	7.28
+58	f42_058_NLRP3_didx39824	NLRP3	scaffold_div	39824		O=C(Nc1c2c(cc3c1CCC3)CCC2)NS(=O)(=O)c1ccco1	A		0.3267315	63.0		0.71	0.59	0.71	0.0	0.05	8.66
+59	f42_059_NLRP3_didx39421	NLRP3	scaffold_div	39421		CN(C)C(=O)c1csc(/C=C/S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)n1	A		0.32593575	64.0		0.69	0.59	0.71	0.0	0.06	9.31
+60	f42_060_NLRP3_didx39735	NLRP3	scaffold_div	39735		CC(C)c1cn(C(C)C)nc1Nc1nc(C(=O)NS(=O)(=O)N(C)C(C)C)co1	A		0.32567924	65.0		0.67	0.59	0.69	0.0	0.06	9.4
+61	f42_061_NLRP3_didx39491	NLRP3	scaffold_div	39491		Cc1cc(Br)cnc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.32310566	68.0		0.78	0.61	0.77	0.0	0.05	5.52
+62	f42_062_NLRP3_didx39727	NLRP3	scaffold_div	39727		CC(C)c1cc(F)cc(C(C)C)c1CC(=O)NS(=O)(=O)c1cnn(C2CC2)n1	A		0.3230822	69.0		0.9	0.62	0.87	0.0	0.06	2.55
+63	f42_063_NLRP3_didx39692	NLRP3	scaffold_div	39692		CC(C)(O)c1coc(/C=C/S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)c1	A		0.32215217	71.0		0.7	0.59	0.7	0.0	0.05	8.36
+64	f42_064_NLRP3_didx39825	NLRP3	scaffold_div	39825		O=C(Nc1c2c(cc3c1CCC3)CCC2)NS(=O)(=O)c1cnn2cccnc12	A		0.3195275	74.0		0.89	0.62	0.87	0.0	0.06	2.67
+65	f42_065_NLRP3_didx19908	NLRP3	scaffold_div	19908		C#CCNS(=O)(=O)c1ccc(CCN(Cc2cc(Cl)ccc2OCCC)C(=O)Cc2ccccc2)cc1	B		0.31864148	76.0		0.84	0.55	0.81	0.0	0.05	3.78
+66	f42_066_NLRP3_didx39596	NLRP3	scaffold_div	39596		Cc1nn(C(C)C)c(C)c1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.31843156	78.0		0.75	0.6	0.75	0.0	0.06	6.75
+67	f42_067_NLRP3_didx39858	NLRP3	scaffold_div	39858		O=c1cc(Cc2cccnc2)[nH]c2nc(Nc3c4c(cc5c3CCC5)CCC4)nn12	A		0.31724814	82.0		0.7	0.66	0.72	0.0	0.06	7.1
+68	f42_068_NLRP3_didx39762	NLRP3	scaffold_div	39762		CC(C)n1cc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)cn1	A		0.31713298	84.0		0.56	0.6	0.59	0.0	0.05	12.21
+69	f42_069_NLRP3_didx39429	NLRP3	scaffold_div	39429		CNc1nc2nn(-c3c(C)cc(Br)cc3C)cc2c(=O)[nH]1	A		0.31636977	87.0		0.61	0.59	0.64	0.0	0.05	8.46
+70	f42_070_NLRP3_didx19922	NLRP3	scaffold_div	19922		C#CCNS(=O)(=O)c1ccc(CCN(Cc2cc(Cl)ccc2[N+](=O)[O-])C(=O)Cc2ccsc2)cc1	B		0.31540418	89.0		0.59	0.6	0.62	0.0	0.05	9.48
+71	f42_071_NLRP3_didx39707	NLRP3	scaffold_div	39707		CC(C)OC(=O)[C@@H](Cc1cnccn1)OC(=O)Nc1c2c(cc3c1CCC3)CCC2	A		0.31478631	94.0		0.67	0.59	0.68	0.0	0.05	7.97
+72	f42_072_NLRP3_didx39837	NLRP3	scaffold_div	39837		O=c1[nH]c(N2CCOCC2)nc2nn(-c3c(Cl)cc(C(F)(F)F)cc3OCC3CC3)cc12	A		0.3147599	95.0		0.96	0.69	0.93	0.0	0.06	1.53
+73	f42_073_NLRP3_didx190900	NLRP3	scaffold_div	190900		N#CN=S(=O)(NC(=O)Nc1c2c(cc3c1CCC3)CCC2)c1ccc(C2(O)COC2)cc1	B		0.3146785	96.0		0.67	0.62	0.69	0.0	0.06	10.0
+74	f42_074_NLRP3_didx39845	NLRP3	scaffold_div	39845		O=c1[nH]c(N2CCOCC2)nc2nn(-c3ccc(C4CC4)cc3CC3CC3)cc12	A		0.31441596	99.0		0.96	0.71	0.94	0.0	0.06	1.31
+75	f42_075_NLRP3_didx39819	NLRP3	scaffold_div	39819		O=C(Nc1c2c(cc3c1CCC3)CCC2)NS(=O)(=O)/C=C/c1cscn1	A		0.31295666	103.0		0.75	0.59	0.74	0.0	0.05	7.74
+76	f42_076_NLRP3_didx190898	NLRP3	scaffold_div	190898		N#CN=S(=O)(Cc1ccccc1)NC(=O)Nc1c2c(cc3c1CCC3)CCC2	B		0.31177443	107.0		0.64	0.66	0.66	0.0	0.05	9.82
+77	f42_077_NLRP3_didx39746	NLRP3	scaffold_div	39746		CC(C)c1nn(Cc2nnc(-c3cc(C(F)(F)F)cnc3Cl)o2)c(=O)c2cc3sc(Cl)cc3n12	A		0.31143466	108.0		0.66	0.58	0.67	0.0	0.06	7.26
+78	f42_078_NLRP3_didx118854	NLRP3	scaffold_div	118854		Cc1cccc(-n2ncc3c(=O)[nH]c(CC4CCCC4)nc32)c1C	B		0.30946267	111.0		0.77	0.63	0.77	0.0	0.05	5.59
+79	f42_079_NLRP3_didx39851	NLRP3	scaffold_div	39851		O=c1[nH]c(N2C[C@H]3C[C@@H]2CO3)nc2nn(-c3ccc(C4CC4)cc3C(F)(F)F)cc12	A		0.30932677	112.0		0.92	0.63	0.89	0.0	0.05	1.89
+80	f42_080_NLRP3_didx39724	NLRP3	scaffold_div	39724		CC(C)c1cc(C#N)cc(C(C)C)c1NC(=O)N=S(N)(=O)c1sc(C(C)(C)O)nc1CO	A		0.30876064	113.0		0.91	0.6	0.88	0.0	0.06	1.98
+81	f42_081_NLRP3_didx39790	NLRP3	scaffold_div	39790		CCOC(=O)c1c2c(nn1C)CN(S(=O)(=O)NC(=O)c1coc(Nc3c4c(c(F)c5c3CCC5)CCC4)n1)C2	A		0.30553815	118.0		0.59	0.58	0.62	0.0	0.06	11.92
+82	f42_082_NLRP3_didx39507	NLRP3	scaffold_div	39507		Cc1cc(C2=CCCCC2)ccc1-n1cc2c(=O)[nH]c(N3CCCC3)nc2n1	A		0.30473152	121.0		0.66	0.6	0.67	0.0	0.05	8.58
+83	f42_083_NLRP3_didx39860	NLRP3	scaffold_div	39860		S=c1cc(Cc2ccccn2)[nH]c2nc(Nc3c4c(cc5c3CCC5)CCC4)nn12	A		0.30422136	123.0		0.67	0.66	0.69	0.0	0.05	7.79
+84	f42_084_NLRP3_didx39453	NLRP3	scaffold_div	39453		CONc1nc2nn(-c3c(C)cc(C4CC4)cc3C)cc2c(=O)[nH]1	A		0.30398604	124.0		0.77	0.6	0.76	0.0	0.06	6.16
+85	f42_085_NLRP3_didx39486	NLRP3	scaffold_div	39486		Cc1cc(Br)ccc1-n1cc2c(=O)[nH]c(N3CCNC(=O)C3)nc2n1	A		0.303551	127.0		0.83	0.62	0.82	0.0	0.06	4.25
+86	f42_086_NLRP3_didx39469	NLRP3	scaffold_div	39469		CS(C)(=O)=Nc1ccc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)s1	A		0.30320802	128.0		0.71	0.6	0.71	0.0	0.06	9.07
+87	f42_087_NLRP3_didx39795	NLRP3	scaffold_div	39795		CCOCC1CCN(S(=O)(=O)NC(=O)c2coc(Nc3nn(C(C)C)cc3C(C)C)n2)CCO1	A		0.3029717	130.0		0.77	0.6	0.76	0.0	0.06	6.33
+88	f42_088_NLRP3_didx20252	NLRP3	scaffold_div	20252		O=C(Nc1c2c(cc3c1CCC3)CCC2)NS(=O)(=O)c1ccc(CN2CCOCC2)cc1	B		0.30206507	133.0		0.85	0.6	0.83	0.0	0.06	3.76
+89	f42_089_NLRP3_didx39565	NLRP3	scaffold_div	39565		Cc1ccc(C(F)F)cc1Nc1nc(C(=O)NS(=O)(=O)N2CCCOCC2)co1	A		0.30077976	135.0		0.63	0.62	0.66	0.0	0.05	9.53
+90	f42_090_NLRP3_didx190910	NLRP3	scaffold_div	190910		N#CN=S(=O)(NC(=O)Nc1c2c(cc3c1CCC3)CCC2)c1cccs1	B		0.3005967	136.0		0.63	0.65	0.66	0.0	0.05	9.99
+91	f42_091_NLRP3_didx20141	NLRP3	scaffold_div	20141		CC(C)c1cccc(C(C)C)c1CC(=O)NS(=O)(=O)c1ccc(CN(C)C)cc1	B		0.2987789	142.0		0.67	0.6	0.68	0.0	0.06	10.21
+92	f42_092_NLRP3_didx20219	NLRP3	scaffold_div	20219		COc1c(C)cc(/C=C/C(=O)c2ccc(NC(=O)NC(C)C)cc2)cc1C	B		0.29733405	148.0		0.65	0.59	0.67	0.0	0.06	10.14
+93	f42_093_NLRP3_didx20199	NLRP3	scaffold_div	20199		CCCNS(=O)(=O)c1ccc2c(c1)CC(NC(=O)c1cc(Cl)ccc1OC)C2	B		0.29598498	150.0		0.79	0.62	0.78	0.0	0.05	4.66
+94	f42_094_NLRP3_didx39745	NLRP3	scaffold_div	39745		CC(C)c1nn(CC(=O)Nc2ncncc2F)c(=O)c2ccc(C(F)(F)F)cc12	A		0.2921563	158.0		0.65	0.62	0.67	0.0	0.05	8.19
+95	f42_095_NLRP3_didx39742	NLRP3	scaffold_div	39742		CC(C)c1nn(CC(=O)N[C@H]2C[C@@](C)(O)C2)c(=O)c2cc3ccsc3n12	A		0.29129782	159.0		0.71	0.61	0.72	0.0	0.06	6.87
+96	f42_096_NLRP3_didx39822	NLRP3	scaffold_div	39822		O=C(Nc1c2c(cc3c1CCC3)CCC2)NS(=O)(=O)c1ccc(NC2CC(F)(F)C2)c2nonc12	A		0.28381157	179.0		0.86	0.69	0.85	0.0	0.05	3.24
+97	f42_097_NLRP3_didx19923	NLRP3	scaffold_div	19923		C#CCNS(=O)(=O)c1ccc(CCN(Cc2cccc3c2OCO3)C(=O)Cc2ccc(F)cc2)cc1	B		0.27711308	195.0		0.91	0.6	0.88	0.0	0.06	2.45
+98	f42_098_NLRP3_didx39434	NLRP3	scaffold_div	39434		COC(=O)C(Cc1ccccc1O)NC(=O)Nc1c2c(cc3c1CCC3)CCC2	A		0.27704564	196.0		0.8	0.64	0.79	0.0	0.05	5.34
+99	f42_099_NLRP3_didx39842	NLRP3	scaffold_div	39842		O=c1[nH]c(N2CCOCC2)nc2nn(-c3ccc(Br)cc3OC3CCC3)cc12	A		0.2764756	199.0		0.71	0.64	0.72	0.0	0.06	6.87
+100	f42_100_NLRP3_Tranilast	NLRP3	class_b_anchor	304893	Tranilast	COc1ccc(/C=C/C(=O)Nc2ccccc2C(=O)O)cc1OC	B	repurposing_anchor	0.16547146	6635.0		0.66	0.6	0.67	0.0	0.06	9.38
+101	f42_101_NLRP3_Glyburide	NLRP3	class_b_anchor	11409	Glyburide	COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1	A	repurposing_anchor	0.18414304	2936.0		0.73	0.59	0.73	0.0	0.06	8.31
+102	f42_102_NLRP3_Inzomelid	NLRP3	class_c_anchor	-1	Inzomelid	CC(C)n1ccc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)n1	C	clinical	0.3314294517040252		50.0	0.72	0.63	0.73	0.0	0.06	6.45
+103	f42_103_NLRP3_JC124	NLRP3	class_c_anchor	-1	JC124	CNS(=O)(=O)c1ccc(CCNC(=O)c2cc(Cl)ccc2OC)cc1	C	tool	0.2312354743480682		475.0	0.82	0.64	0.81	0.0	0.05	4.42
+104	f42_104_NLRP3_Parthenolide	NLRP3	class_c_anchor	-1	Parthenolide	C=C1C(=O)O[C@H]2[C@H]1CC/C(C)=C/CC[C@@]1(C)O[C@@H]21	C	tool	0.2246724367141723		557.0	0.79	0.59	0.77	0.0	0.05	6.19
+105	f42_105_NLRP3_Oridonin	NLRP3	class_c_anchor	-1	Oridonin	C=C1C(=O)[C@]23[C@H](O)[C@H]1CC[C@H]2[C@@]12CO[C@]3(O)[C@@H](O)[C@@H]1C(C)(C)CC[C@@H]2O	C	tool	0.1958494186401367		1705.0	0.75	0.59	0.75	0.0	0.06	7.74
+106	f42_106_NLRP3_NP3-562	NLRP3	class_c_anchor	-1	NP3-562	CN1CCC[C@@H](NC(=O)Cn2nc(C(C)(C)O)n3c(cc4sc(Cl)cc43)c2=O)C1	C	clinical	0.1902085095643997		2203.0	0.83	0.6	0.81	0.0	0.06	3.78
+107	f42_107_NLRP3_BAY-11-7082	NLRP3	class_c_anchor	-1	BAY-11-7082	Cc1ccc(S(=O)(=O)/C=C/C#N)cc1	C	tool	0.1230374947190284		33352.0	0.8	0.61	0.79	0.0	0.05	5.45
+108	f42_108_NLRP3_CY-09	NLRP3	class_c_anchor	-1	CY-09	O=C(O)c1ccc(/C=C2\SC(=S)N(Cc3cccc(C(F)(F)F)c3)C2=O)cc1	C	tool	0.0999639630317688		67474.0	0.72	0.6	0.72	0.0	0.05	6.09
+109	f42_109_NLRP3_Dapansutrile	NLRP3	class_c_anchor	-1	Dapansutrile	CS(=O)(=O)CCC#N	C	clinical	0.0483405143022537		214145.0	0.78	0.6	0.77	0.0	0.05	6.42
+110	f42_110_NLRP3_Loratadine	NLRP3	negative_control	61696	Loratadine	CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1	B	negative_control	0.07592387	123894.0		0.74	0.62	0.75	0.0	0.06	6.48
+111	f42_111_NLRP3_Amoxicillin	NLRP3	negative_control	219139	Amoxicillin	CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O	B	negative_control	0.046843976	219582.0		0.73	0.59	0.73	0.0	0.05	8.3
+112	f42_112_NLRP3_Levothyroxine	NLRP3	negative_control	42220	Levothyroxine	N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O	B	negative_control	0.014408299	345869.0		0.73	0.58	0.72	0.0	0.05	6.53
+113	f42_113_NLRP3_Warfarin	NLRP3	negative_control	54520	Warfarin	CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O	B	negative_control	0.10521344	58078.0		0.76	0.59	0.75	0.0	0.05	6.27
+114	f42_114_NLRP3_Aspirin	NLRP3	negative_control	-1	Aspirin	CC(=O)Oc1ccccc1C(=O)O	C	negative_control	0.0981412604451179		71004.0	0.76	0.58	0.75	0.0	0.06	6.9
+115	f42_115_CD73_didx272410	CD73	top50_cosine	272410		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)C(=O)O1	A		0.41071895	1.0		0.81	0.79	0.85	0.0	0.08	3.53
+116	f42_116_CD73_didx272403	CD73	top50_cosine	272403		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3ncnn23)CC1(F)F	A		0.4003345	2.0		0.97	0.87	0.99	0.0	0.08	1.0
+117	f42_117_CD73_didx272413	CD73	top50_cosine	272413		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ncnc23)CC1(F)F	A		0.3979252	3.0		0.97	0.86	0.99	0.0	0.08	0.99
+118	f42_118_CD73_didx273417	CD73	top50_cosine	273417		O=c1[nH]cc(-c2cc(N3CC4C(C3)C4(F)F)c3nccn3n2)c(=O)[nH]1	A		0.3970945	4.0		0.78	0.79	0.83	0.0	0.08	3.79
+119	f42_119_CD73_didx272411	CD73	top50_cosine	272411		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)C1	A		0.3928896	5.0		0.83	0.79	0.87	0.0	0.08	2.57
+120	f42_120_CD73_didx272402	CD73	top50_cosine	272402		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3nccn23)CC1(F)F	A		0.39017212	6.0		0.85	0.76	0.87	0.0	0.08	2.41
+121	f42_121_CD73_didx273029	CD73	top50_cosine	273029		Cn1ncc2ccc([C@H]3C[C@@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)cc21	A		0.38941136	7.0		0.95	0.86	0.97	0.0	0.08	1.22
+122	f42_122_CD73_didx273006	CD73	top50_cosine	273006		Cc1nc2ccc([C@H]3C[C@@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)cc2s1	A		0.38861746	8.0		0.94	0.84	0.96	0.0	0.08	1.34
+123	f42_123_CD73_didx273222	CD73	top50_cosine	273222		O=C(Nc1ccccc1)[C@H]1C[C@@H]1c1cc(-c2c[nH]c(=O)[nH]c2=O)nn2ccnc12	A		0.386887	9.0		0.75	0.78	0.8	0.0	0.08	4.4
+124	f42_124_CD73_didx273411	CD73	top50_cosine	273411		O=c1[nH]cc(-c2cc(N3CC(c4ccccc4)C(F)(F)C3)c3nccn3n2)c(=O)[nH]1	A		0.3854334	10.0		0.78	0.76	0.82	0.0	0.08	3.55
+125	f42_125_CD73_didx273396	CD73	top50_cosine	273396		O=c1[nH]cc(-c2cc(N3CC(F)(c4ccccc4)C3)c3nccn3n2)c(=O)[nH]1	A		0.38523075	11.0		0.81	0.78	0.84	0.0	0.08	2.82
+126	f42_126_CD73_didx272778	CD73	top50_cosine	272778		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(N4CCCC4)nc(Cl)nc32)[C@@H]1O	A		0.3851053	12.0		0.93	0.76	0.94	0.0	0.08	1.04
+127	f42_127_CD73_didx272851	CD73	top50_cosine	272851		COC(=O)c1cccc([C@H]2C[C@@H]2c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)c1	A		0.3849738	13.0		0.93	0.84	0.96	0.0	0.08	1.31
+128	f42_128_CD73_didx272854	CD73	top50_cosine	272854		COC1CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)CC1(F)F	A		0.38337544	14.0		0.84	0.78	0.86	0.0	0.08	2.46
+129	f42_129_CD73_didx272746	CD73	top50_cosine	272746		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)(C(=O)O)C(=O)O)O[C@@H](n2cnc3c(N4CC(O)C4)nc(Cl)nc32)[C@@H]1O	A		0.38333228	15.0		0.93	0.74	0.93	0.0	0.08	1.03
+130	f42_130_CD73_didx273377	CD73	top50_cosine	273377		O=c1[nH]cc(-c2cc(N3CC(F)(C(F)(F)F)C3)c3ncc(Cl)n3n2)c(=O)[nH]1	A		0.38265842	16.0		0.79	0.78	0.83	0.0	0.08	3.23
+131	f42_131_CD73_didx272401	CD73	top50_cosine	272401		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3ccnn23)CC1(F)F	A		0.3793971	17.0		0.85	0.76	0.87	0.0	0.08	2.39
+132	f42_132_CD73_didx272412	CD73	top50_cosine	272412		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)CC1(F)F	A		0.37933338	18.0		0.82	0.77	0.85	0.0	0.08	2.69
+133	f42_133_CD73_didx272784	CD73	top50_cosine	272784		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(N4CC[C@@H](O)C4)nc(Cl)nc32)[C@@H]1O	A		0.37744734	19.0		0.94	0.76	0.94	0.0	0.08	1.06
+134	f42_134_CD73_didx272777	CD73	top50_cosine	272777		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(N4CCC4)nc(Cl)nc32)[C@@H]1O	A		0.37721938	20.0		0.94	0.76	0.95	0.0	0.08	1.05
+135	f42_135_CD73_didx272864	CD73	top50_cosine	272864		COC[C@@H]1C[C@H]1c1cc(-c2c[nH]c(=O)[nH]c2=O)nn2ccnc12	A		0.376997	21.0		0.8	0.79	0.84	0.0	0.08	3.83
+136	f42_136_CD73_didx273322	CD73	top50_cosine	273322		O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N4Cc5ccccc5C4)nc(Cl)nc32)[C@@H](F)[C@@H]1O	A		0.3768734	22.0		0.94	0.82	0.96	0.0	0.08	1.24
+137	f42_137_CD73_didx272370	CD73	top50_cosine	272370		CC(C)n1ncc2ccc([C@H]3C[C@@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)cc21	A		0.3757416	23.0		0.95	0.86	0.97	0.0	0.08	1.14
+138	f42_138_CD73_didx273247	CD73	top50_cosine	273247		O=C(c1ccc([C@H]2C[C@@H]2c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)cc1)N1CC(F)(F)C1	A		0.37538314	24.0		0.91	0.84	0.94	0.0	0.08	1.48
+139	f42_139_CD73_didx273418	CD73	top50_cosine	273418		O=c1[nH]cc(-c2cc(N3CC4CC(C3)C4(F)F)c3nccn3n2)c(=O)[nH]1	A		0.37455374	25.0		0.79	0.79	0.83	0.0	0.08	3.59
+140	f42_140_CD73_didx272369	CD73	top50_cosine	272369		CC(C)n1ncc2ccc([C@@H]3C[C@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)cc21	A		0.37337178	26.0		0.95	0.86	0.97	0.0	0.08	1.16
+141	f42_141_CD73_didx272786	CD73	top50_cosine	272786		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(N4CC[C@H](O)C4)nc(Cl)nc32)[C@@H]1O	A		0.37333804	27.0		0.94	0.76	0.94	0.0	0.08	1.06
+142	f42_142_CD73_didx272400	CD73	top50_cosine	272400		CC1(C)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3c(Cl)cnn23)CC1(F)F	A		0.37249863	28.0		0.9	0.77	0.91	0.0	0.08	2.04
+143	f42_143_CD73_didx272384	CD73	top50_cosine	272384		CC1(C(F)F)CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)C1	A		0.37223494	29.0		0.81	0.79	0.85	0.0	0.08	2.91
+144	f42_144_CD73_didx273004	CD73	top50_cosine	273004		Cc1nc2cc([C@H]3C[C@@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)ccc2s1	A		0.3715488	30.0		0.77	0.76	0.81	0.0	0.08	3.67
+145	f42_145_CD73_didx272848	CD73	top50_cosine	272848		COC(=O)c1ccc([C@H]2C[C@@H]2c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)cc1	A		0.3712867	31.0		0.94	0.84	0.96	0.0	0.08	1.31
+146	f42_146_CD73_didx272790	CD73	top50_cosine	272790		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(NC4CCCC4)nc(Cl)nc32)[C@@H]1O	A		0.37124443	32.0		0.94	0.76	0.95	0.0	0.08	0.97
+147	f42_147_CD73_didx273421	CD73	top50_cosine	273421		O=c1[nH]cc(-c2cc(N3CC4CC4C3)c3nccn3n2)c(=O)[nH]1	A		0.37113908	33.0		0.85	0.8	0.88	0.0	0.08	2.53
+148	f42_148_CD73_didx272782	CD73	top50_cosine	272782		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(N4CCOCC4)nc(Cl)nc32)[C@@H]1O	A		0.3708217	34.0		0.94	0.77	0.94	0.0	0.08	1.05
+149	f42_149_CD73_didx273397	CD73	top50_cosine	273397		O=c1[nH]cc(-c2cc(N3CC(F)C4(CC4)C3)c3ncc(F)n3n2)c(=O)[nH]1	A		0.37066218	35.0		0.84	0.78	0.87	0.0	0.08	2.63
+150	f42_150_CD73_didx273378	CD73	top50_cosine	273378		O=c1[nH]cc(-c2cc(N3CC(F)(C(F)(F)F)C3)c3nccn3n2)c(=O)[nH]1	A		0.37053663	36.0		0.74	0.8	0.79	0.0	0.08	4.93
+151	f42_151_CD73_didx273040	CD73	top50_cosine	273040		Fc1cccc(-n2nccc2-c2ccc3nnn(-c4ccc5cn[nH]c5c4)c3c2)c1	A		0.3688368	37.0		0.96	0.87	0.98	0.0	0.08	1.0
+152	f42_152_CD73_didx273385	CD73	top50_cosine	273385		O=c1[nH]cc(-c2cc(N3CC(F)(F)C3)c3nccn3n2)c(=O)[nH]1	A		0.36815792	38.0		0.81	0.79	0.85	0.0	0.08	3.25
+153	f42_153_CD73_didx273082	CD73	top50_cosine	273082		N#Cc1ccc([C@H]2C[C@@H]2c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)nc1	A		0.3678165	39.0		0.76	0.79	0.8	0.0	0.08	4.42
+154	f42_154_CD73_didx273316	CD73	top50_cosine	273316		O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N4CC5(CCc6ccccc65)C4)nc(Cl)nc32)[C@@H](O)C1O	A		0.3666053	40.0		0.97	0.87	0.99	0.0	0.08	0.96
+155	f42_155_CD73_didx273398	CD73	top50_cosine	273398		O=c1[nH]cc(-c2cc(N3CC(F)C4(CC4)C3)c3nccn3n2)c(=O)[nH]1	A		0.36637104	41.0		0.8	0.79	0.84	0.0	0.08	3.49
+156	f42_156_CD73_didx272736	CD73	top50_cosine	272736		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)(C(=O)O)C(=O)O)O[C@@H](n2cnc3c(N(C)C4CC(O)C4)nc(Cl)nc32)[C@@H]1O	A		0.36579642	42.0		0.93	0.75	0.94	0.0	0.08	1.01
+157	f42_157_CD73_didx273412	CD73	top50_cosine	273412		O=c1[nH]cc(-c2cc(N3CC(c4ccccc4)C3)c3nccn3n2)c(=O)[nH]1	A		0.3646539	43.0		0.82	0.79	0.85	0.0	0.08	2.84
+158	f42_158_CD73_didx273674	CD73	top50_cosine	273674		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3ccncc3)c3ncc(F)n3n2)c(=O)[nH]1	A		0.36442843	44.0		0.82	0.79	0.85	0.0	0.08	3.31
+159	f42_159_CD73_didx273315	CD73	top50_cosine	273315		O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N4CC5(CCCc6ccccc65)C4)nc(Cl)nc32)[C@@H](O)C1O	A		0.36434186	45.0		0.97	0.88	0.99	0.0	0.08	0.92
+160	f42_160_CD73_didx272850	CD73	top50_cosine	272850		COC(=O)c1cccc(C2CN(c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)C2)c1	A		0.36392912	46.0		0.94	0.84	0.96	0.0	0.08	1.24
+161	f42_161_CD73_didx272674	CD73	top50_cosine	272674		C#C[C@@]1(O)[C@@H](COC(C(=O)OCC)P(=O)(O)O)O[C@@H](n2cnc3c(N4CCOCC4)nc(Cl)nc32)[C@@H]1O	A		0.36351162	47.0		0.94	0.76	0.94	0.0	0.08	1.13
+162	f42_162_CD73_didx273434	CD73	top50_cosine	273434		O=c1[nH]cc(-c2cc(N3CCC(F)(F)C3)c3ncc(F)n3n2)c(=O)[nH]1	A		0.3634261	48.0		0.84	0.78	0.87	0.0	0.08	2.68
+163	f42_163_CD73_didx272305	CD73	top50_cosine	272305		C#C[C@@]1(O)[C@@H](CO[C@@](Cc2ccccc2)(C(=O)O)c2cscn2)O[C@@H](n2cnc3c(NC(C)C)nc(Cl)nc32)[C@@H]1O	A		0.36336428	49.0		0.94	0.77	0.95	0.0	0.08	1.05
+164	f42_164_CD73_didx273668	CD73	top50_cosine	273668		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3cccnc3)c3ncc(F)n3n2)c(=O)[nH]1	A		0.36320114	50.0		0.81	0.79	0.85	0.0	0.08	3.31
+165	f42_165_CD73_didx273420	CD73	scaffold_div	273420		O=c1[nH]cc(-c2cc(N3CC4CC4(F)C3)c3nccn3n2)c(=O)[nH]1	A		0.3631476	51.0		0.82	0.8	0.85	0.0	0.08	3.03
+166	f42_166_CD73_didx272341	CD73	scaffold_div	272341		CC(C)(O)[C@H]1C[C@@H]1c1cc(-c2c[nH]c(=O)[nH]c2=O)nn2ccnc12	A		0.36272645	54.0		0.8	0.78	0.84	0.0	0.08	3.88
+167	f42_167_CD73_didx272314	CD73	scaffold_div	272314		C#C[C@@]1(O)[C@@H](CO[C@](Cc2ccccc2)(C(=O)O)c2cscn2)O[C@@H](n2cnc3c(NC(C)C)nc(Cl)nc32)[C@@H]1O	A		0.36236215	56.0		0.94	0.77	0.94	0.0	0.08	1.1
+168	f42_168_CD73_didx272424	CD73	scaffold_div	272424		CC1CN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3ccnn23)CC1(F)F	A		0.36142683	58.0		0.83	0.78	0.87	0.0	0.08	2.57
+169	f42_169_CD73_didx273317	CD73	scaffold_div	273317		O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N4CC5(Cc6ccccc6C5)C4)nc(Cl)nc32)[C@@H](O)C1O	A		0.36112848	59.0		0.97	0.87	0.99	0.0	0.08	0.95
+170	f42_170_CD73_didx273138	CD73	scaffold_div	273138		Nc1nc(Cl)nc2c1ncn2[C@@H]1O[C@H](COC(Cc2ccc(Cl)nc2)(C(=O)O)C(=O)O)[C@@H](O)[C@@H]1F	A		0.3608513	60.0		0.91	0.77	0.92	0.0	0.08	1.24
+171	f42_171_CD73_didx272791	CD73	scaffold_div	272791		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)C(=O)O)O[C@@H](n2cnc3c(NC4CCOC4)nc(Cl)nc32)[C@@H]1O	A		0.36039275	63.0		0.94	0.76	0.95	0.0	0.08	0.96
+172	f42_172_CD73_didx272745	CD73	scaffold_div	272745		C#C[C@@]1(O)[C@@H](COC(Cc2ccccc2)(C(=O)O)C(=O)O)O[C@@H](n2cnc3c(N4CC(CO)C4)nc(Cl)nc32)[C@@H]1O	A		0.35993543	68.0		0.93	0.74	0.94	0.0	0.08	1.05
+173	f42_173_CD73_didx273500	CD73	scaffold_div	273500		O=c1[nH]cc(-c2cc(OCC(F)(F)C(F)(F)F)c3nccn3n2)c(=O)[nH]1	A		0.35988712	69.0		0.79	0.76	0.82	0.0	0.08	3.5
+174	f42_174_CD73_didx272846	CD73	scaffold_div	272846		COC(=O)c1ccc(C2CCN(c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)C2)cc1	A		0.3587699	75.0		0.93	0.85	0.96	0.0	0.08	1.25
+175	f42_175_CD73_didx273354	CD73	scaffold_div	273354		O=c1[nH]cc(-c2cc(-c3cnn(C(F)F)c3)c3nccn3n2)c(=O)[nH]1	A		0.35859066	76.0		0.77	0.8	0.82	0.0	0.08	3.84
+176	f42_176_CD73_didx272923	CD73	scaffold_div	272923		COc1ncc(-c2cc(N3CC(OCC(F)(F)F)C(F)(F)C3)c3nccn3n2)c(OC)n1	A		0.35738614	83.0		0.94	0.75	0.94	0.0	0.08	1.26
+177	f42_177_CD73_didx273168	CD73	scaffold_div	273168		Nc1nc(Cl)nc2c1ncn2[C@@H]1O[C@H](COC(Cc2cccc(OC(F)(F)F)c2)(C(=O)O)c2nn[nH]n2)[C@@H](O)[C@H]1O	A		0.3561922	87.0		0.91	0.77	0.92	0.0	0.08	0.91
+178	f42_178_CD73_didx272399	CD73	scaffold_div	272399		CC1(C)CN(C(=O)c2cccc([C@H]3C[C@@H]3c3cc(-c4c[nH]c(=O)[nH]c4=O)nn4ccnc34)c2)C1	A		0.3547232	95.0		0.95	0.85	0.97	0.0	0.08	1.11
+179	f42_179_CD73_didx273379	CD73	scaffold_div	273379		O=c1[nH]cc(-c2cc(N3CC(F)(C(F)(F)F)C3)c3ncnn3n2)c(=O)[nH]1	A		0.35439372	97.0		0.96	0.85	0.98	0.0	0.08	1.04
+180	f42_180_CD73_didx272391	CD73	scaffold_div	272391		CC1(C)CC(c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3c(Cl)c(Cl)nc23)CC1(F)F	A		0.3541757	98.0		0.97	0.86	0.99	0.0	0.08	1.04
+181	f42_181_CD73_didx273034	CD73	scaffold_div	273034		Cn1nccc1-c1ccc2nnn(-c3ccc4cn[nH]c4c3)c2c1	A		0.35245517	106.0		0.97	0.87	0.99	0.0	0.08	0.99
+182	f42_182_CD73_didx273696	CD73	scaffold_div	273696		O=c1[nH]cc(-c2cc([C@H]3C[C@]3(F)c3ccccc3)c3nccn3n2)c(=O)[nH]1	A		0.352222	108.0		0.77	0.78	0.81	0.0	0.08	4.12
+183	f42_183_CD73_didx273679	CD73	scaffold_div	273679		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3cnc4c(F)nn(CC(F)(F)F)c4c3)c3nccn3n2)c(=O)[nH]1	A		0.35176694	112.0		0.74	0.77	0.78	0.0	0.08	4.01
+184	f42_184_CD73_didx273078	CD73	scaffold_div	273078		N#Cc1ccc([C@H]2C[C@@H]2c2cc(-c3c[nH]c(=O)[nH]c3=O)nn3ccnc23)cc1C1CC1	A		0.35167307	115.0		0.94	0.85	0.96	0.0	0.08	1.25
+185	f42_185_CD73_didx272395	CD73	scaffold_div	272395		CC1(C)CCN(c2cc(-c3c[nH]c(=O)[nH]c3=O)nc3ncnn23)C1	A		0.3515253	120.0		0.97	0.86	0.99	0.0	0.08	1.03
+186	f42_186_CD73_didx272925	CD73	scaffold_div	272925		COc1ncc(-c2cc(N3CC4CC3C4)c3nccn3n2)c(OC)n1	A		0.3514635	121.0		0.88	0.81	0.91	0.0	0.08	2.15
+187	f42_187_CD73_didx273453	CD73	scaffold_div	273453		O=c1[nH]cc(-c2cc(N3CCC4CC43)c3nccn3n2)c(=O)[nH]1	A		0.3514188	122.0		0.85	0.8	0.88	0.0	0.08	2.65
+188	f42_188_CD73_didx273388	CD73	scaffold_div	273388		O=c1[nH]cc(-c2cc(N3CC(F)(F)C4(CC4)C3)c3nncn3n2)c(=O)[nH]1	A		0.35101545	129.0		0.83	0.78	0.86	0.0	0.08	3.05
+189	f42_189_CD73_didx273489	CD73	scaffold_div	273489		O=c1[nH]cc(-c2cc(NC3CCCC3)c3nccn3n2)c(=O)[nH]1	A		0.34960532	139.0		0.81	0.81	0.85	0.0	0.08	3.72
+190	f42_190_CD73_didx272317	CD73	scaffold_div	272317		C#C[C@@]1(O)[C@@H](CO[C@](Cc2ccccc2)(C(=O)O)c2nnn[nH]2)O[C@@H](n2cnc3c(N)nc(Cl)nc32)[C@@H]1O	A		0.34931442	142.0		0.89	0.75	0.9	0.0	0.08	1.37
+191	f42_191_CD73_didx273260	CD73	scaffold_div	273260		O=C(c1ccccc1)C(OC[C@H]1O[C@@H](n2ncc3c(NC4CCCC4)nc(Cl)nc32)[C@H](O)[C@@H]1O)P(=O)(O)O	A		0.3481919	148.0		0.94	0.83	0.96	0.0	0.08	1.0
+192	f42_192_CD73_didx273531	CD73	scaffold_div	273531		O=c1[nH]cc(-c2cc([C@@H]3C[C@H]3c3ccc(OC(F)F)nc3)c3ncc(F)n3n2)c(=O)[nH]1	A		0.346354	169.0		0.76	0.77	0.81	0.0	0.08	3.78
+193	f42_193_CD73_didx273326	CD73	scaffold_div	273326		O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(NC4CCCC4)nc(Cl)nc32)[C@@H](F)[C@@H]1O	A		0.34634733	170.0		0.95	0.82	0.96	0.0	0.08	1.07
+194	f42_194_CD73_didx273661	CD73	scaffold_div	273661		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3ccc4onc(C(F)(F)F)c4c3)c3nccn3n2)c(=O)[nH]1	A		0.34121323	215.0		0.9	0.83	0.93	0.0	0.08	1.66
+195	f42_195_CD73_didx272936	CD73	scaffold_div	272936		COc1ncc(-c2cc([C@H]3C[C@@H]3c3ccc(C(=O)O)cc3)c3nccn3n2)c(OC)n1	A		0.3399416	230.0		0.84	0.79	0.87	0.0	0.08	2.51
+196	f42_196_CD73_didx273565	CD73	scaffold_div	273565		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3cc(OCC4CC4(F)F)c(Cl)cn3)c3nccn3n2)c(=O)[nH]1	A		0.3392731	239.0		0.66	0.78	0.72	0.0	0.08	5.63
+197	f42_197_CD73_didx273639	CD73	scaffold_div	273639		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3ccc4cnn(CC(F)(F)F)c4c3)n3nccc3n2)c(=O)[nH]1	A		0.33801606	252.0		0.96	0.86	0.98	0.0	0.08	1.07
+198	f42_198_CD73_didx273589	CD73	scaffold_div	273589		O=c1[nH]cc(-c2cc([C@H]3C[C@@H]3c3ccc(Cl)cn3)c3ncnn3n2)c(=O)[nH]1	A		0.33670628	267.0		0.96	0.85	0.98	0.0	0.08	1.11
+199	f42_199_CD73_didx272671	CD73	scaffold_div	272671		C#C[C@@]1(O)[C@@H](COC(C(=O)O)c2csc(C(=O)O)n2)O[C@@H](n2cnc3c(N)nc(Cl)nc32)[C@@H]1O	A		0.33400664	300.0		0.89	0.77	0.91	0.0	0.08	1.34
+200	f42_200_CD73_AB680	CD73	class_b_anchor	511365	AB680	C[C@H](Nc1cc(Cl)nc2c1cnn2[C@@H]1O[C@H](COP(=O)(O)CP(=O)(O)O)[C@@H](O)[C@H]1O)c1ccccc1F	B	gold_standard	0.3222116	503.0		0.95	0.86	0.97	0.0	0.08	0.98
+201	f42_201_CD73_LY3475070	CD73	class_b_anchor	273007	LY3475070	Cc1nnc(-c2c[nH]c(=O)[nH]c2=O)cc1[C@H]1C[C@@H]1C(C)C	A	clinical	0.26911438	1118.0		0.77	0.77	0.81	0.0	0.08	4.16
+202	f42_202_CD73_AOPCP	CD73	class_b_anchor	265390	AOPCP	Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)CP(=O)(O)O)[C@@H](O)[C@H]1O	B	gold_standard	0.23392466	1276.0		0.96	0.79	0.97	0.0	0.08	1.05
+203	f42_203_CD73_Dipyridamole	CD73	class_b_anchor	34932	Dipyridamole	OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1	B	repurposing_anchor	0.008300442	198556.0		0.82	0.78	0.85	0.0	0.08	2.28
+204	f42_204_CD73_PSB-12379	CD73	class_c_anchor	-1	PSB-12379	O=P(O)(O)CP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(NCc4ccccc4)ncnc32)[C@H](O)[C@@H]1O	C	tool	0.30141082406044		833.0	0.96	0.85	0.98	0.0	0.08	1.02
+205	f42_205_CD73_Loratadine	CD73	negative_control	61696	Loratadine	CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1	B	negative_control	-0.04919703	430512.0		0.66	0.75	0.72	0.0	0.08	6.72
+206	f42_206_CD73_Amoxicillin	CD73	negative_control	219139	Amoxicillin	CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O	B	negative_control	0.055853605	65649.0		0.67	0.79	0.73	0.0	0.08	8.01
+207	f42_207_CD73_Levothyroxine	CD73	negative_control	42220	Levothyroxine	N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O	B	negative_control	0.017828349	164221.0		0.68	0.75	0.74	0.0	0.08	7.02
+208	f42_208_CD73_Warfarin	CD73	negative_control	54520	Warfarin	CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O	B	negative_control	0.020926392	154021.0		0.74	0.79	0.8	0.0	0.08	5.39
+209	f42_209_CD73_Aspirin	CD73	negative_control	-1	Aspirin	CC(=O)Oc1ccccc1C(=O)O	C	negative_control	0.0708589553833007		43217.0	0.8	0.8	0.84	0.0	0.08	4.68
+210	f42_210_STING1_didx7088	STING1	top50_cosine	7088		O=C([O-])C(=O)CC(=O)[C@]1(Cc2ccc(Cl)cc2)CCC[N@H+](Cc2ccccc2)C1	B		0.35148168	1.0		0.65	0.56	0.71	0.0	0.16	7.5
+211	f42_211_STING1_didx7644	STING1	top50_cosine	7644		[NH2+]=c1[nH]c(=O)c2ncn([C@@H]3O[C@@H]4CO[P@](=O)([O-])O[C@H]5[C@@H](O)[C@H](n6cnc7c(=O)[nH]c(=[NH2+])[nH]c76)O[C@@H]5CO[P@](=O)([O-])O[C@H]4[C@H]3O)c2[nH]1	A		0.3490445	2.0		0.69	0.55	0.72	0.0	0.13	3.57
+212	f42_212_STING1_didx7565	STING1	top50_cosine	7565		[NH2+]=c1[nH]c(=O)c2c([nH]1)n([C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O)c[n+]2CCOc1ccc(Cl)cc1	B		0.34556228	3.0		0.89	0.58	0.89	0.0	0.14	1.75
+213	f42_213_STING1_didx5056	STING1	top50_cosine	5056		[NH2+]=c1[nH]c(=O)c2ncn([C@@H]3O[C@@H]4CO[P@@](=O)([O-])O[C@H]5[C@@H](O)[C@H](n6cnc7c(=O)[nH]c(=[NH2+])[nH]c76)O[C@@H]5CO[P@](=O)([O-])O[C@H]4[C@H]3O)c2[nH]1	A		0.34323958	4.0		0.69	0.55	0.73	0.0	0.13	3.55
+214	f42_214_STING1_didx5702	STING1	top50_cosine	5702		O=C([O-])c1cc(Br)ccc1N[C@@H]1CCC[NH2+]C1	B		0.34304535	5.0		0.88	0.59	0.89	0.0	0.15	2.16
+215	f42_215_STING1_didx5864	STING1	top50_cosine	5864		Cn1cc([C@@H]2CCC3=C4[C@@H]([NH2+]C5CCCCC5)[NH2+]C[C@@H](C(N)=O)[C@@H]4[NH2+][C@H]3C2)cn1	B		0.34256592	6.0		0.73	0.59	0.78	0.0	0.15	3.75
+216	f42_216_STING1_didx3613	STING1	top50_cosine	3613		[NH2+]=c1[nH]c(=O)c2ncn([C@@H]3O[C@H]4CO[P@@](=O)([O-])O[C@H]5[C@@H](O)[C@H](n6cnc7c(=O)[nH]c(=[NH2+])[nH]c76)O[C@@H]5CO[P@@](=O)([O-])O[C@H]4[C@H]3O)c2[nH]1	B		0.34177017	7.0		0.69	0.55	0.72	0.0	0.13	3.53
+217	f42_217_STING1_didx7610	STING1	top50_cosine	7610		O=C1Cc2ccccc2C(=O)N1[O-]	B		0.34170815	8.0		0.77	0.57	0.81	0.0	0.16	4.06
+218	f42_218_STING1_didx5425	STING1	top50_cosine	5425		[NH2+]=c1[nH]c(=O)c2ncn([C@@H]3O[C@@H]4CO[P@@](=O)([O-])O[C@H]5[C@@H](O)[C@H](n6cnc7c(=O)[nH]c(=[NH2+])[nH]c76)O[C@@H]5CO[P@@](=O)([O-])O[C@H]4[C@H]3O)c2[nH]1	B		0.34068835	9.0		0.69	0.55	0.72	0.0	0.13	3.57
+219	f42_219_STING1_didx3755	STING1	top50_cosine	3755		CC1=C([C@@H]2C[C@H](C)[C]([O-])O2)CC[C@]23CCC[NH+]=C2CC/C=C(\C)[C@@H]2O[C@@H](CC[C@H](O)/C(C)=C/[C@@H]13)C[C@H]2C	B		0.34039328	10.0		0.6	0.56	0.67	0.0	0.16	8.57
+220	f42_220_STING1_didx5703	STING1	top50_cosine	5703		O=C([O-])c1cc(Br)ccc1N[C@H]1CCC[NH2+]C1	B		0.3400635	11.0		0.88	0.59	0.9	0.0	0.15	2.1
+221	f42_221_STING1_didx6402	STING1	top50_cosine	6402		C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)COP(=O)([O-])[O-]	B		0.33910665	12.0		0.66	0.56	0.72	0.0	0.16	6.8
+222	f42_222_STING1_didx5255	STING1	top50_cosine	5255		Cc1ccc(-c2c(C[NH3+])c(CC(C)C)nc(C)c2C(=O)[O-])cc1	B		0.33865732	13.0		0.63	0.58	0.7	0.0	0.16	8.26
+223	f42_223_STING1_didx530	STING1	top50_cosine	530		CC(=O)C1=CN([C@@H]2O[C@H](CO[P@@](=O)([O-])O[P@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	B		0.338586	14.0		0.72	0.54	0.76	0.0	0.16	3.01
+224	f42_224_STING1_didx14356	STING1	top50_cosine	14356		CCC(C)(C)[C]([O-])O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)[O-])[C@H]21	B		0.33846375	15.0		0.51	0.56	0.6	0.0	0.16	11.21
+225	f42_225_STING1_didx1309	STING1	top50_cosine	1309		CC(=O)N[C@@H](Cc1ccc(N(C(=O)C(=O)[O-])c2ccccc2C(=O)[O-])c2ccccc12)C(=O)NCCCCCOc1cc2ccccc2cc1C(=O)[O-]	B		0.33768255	16.0		0.62	0.54	0.67	0.0	0.14	7.45
+226	f42_226_STING1_didx3052	STING1	top50_cosine	3052		O=C(Nc1ccc(Cl)cc1)c1cc2ccccc2cc1OP(=O)([O-])[O-]	B		0.3372885	17.0		0.54	0.6	0.62	0.0	0.13	11.32
+227	f42_227_STING1_didx5014	STING1	top50_cosine	5014		CO[C@@H]1[C@@H]2O[P@](=O)([O-])O[NH2+]OCCCCCCO[P@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(=O)[nH]c(=[NH2+])[nH]c54)[C@H](OC)[C@@H]3O[P@](=O)([O-])OC[C@H]3C[N@@H+](Cc4c[nH]c5c(N)ncnc45)C[C@@H]3O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(=O)[nH]c(=[NH2+])[nH]c54)[C@H](OC)[C@@H]3O[P@@](=O)([O-])OC[C@H]2O[C@H]1n1cnc2c(N)ncnc21	B		0.33596006	18.0		0.47	0.56	0.55	0.0	0.13	7.63
+228	f42_228_STING1_didx5591	STING1	top50_cosine	5591		O=C1[C@@H](COP(=O)([O-])[O-])O[C@](O)(CO)[C@H]1O	B		0.33588633	19.0		0.66	0.61	0.71	0.0	0.13	7.62
+229	f42_229_STING1_didx6704	STING1	top50_cosine	6704		N#Cc1ccc(CO[C]([O-])[C@H]2C[C@]3(C[NH2+]2)C(=O)Nc2ccccc23)cc1	B		0.33540684	20.0		0.67	0.58	0.73	0.0	0.15	6.44
+230	f42_230_STING1_didx5017	STING1	top50_cosine	5017		CO[C@@H]1[C@@H]2O[P@@](=O)([O-])O[NH2+]OCCCCCCO[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(=O)[nH]c(=[NH2+])[nH]c54)[C@H](OC)[C@@H]3O[P@@](=O)([O-])OC[C@H]3C[N@@H+](Cc4c[nH]c5c(N)ncnc45)C[C@@H]3O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(=O)[nH]c(=[NH2+])[nH]c54)[C@H](OC)[C@@H]3O[P@@](=O)([O-])OC[C@H]2O[C@H]1n1cnc2c(N)ncnc21	B		0.33441225	21.0		0.47	0.57	0.56	0.0	0.13	7.53
+231	f42_231_STING1_didx13222	STING1	top50_cosine	13222		NC(=O)C1=CN([C@@H]2O[C@H](CO[P@@](=O)([O-])O[P@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	B		0.3343776	22.0		0.72	0.54	0.75	0.0	0.13	2.94
+232	f42_232_STING1_didx10626	STING1	top50_cosine	10626		O=C([O-])C(=O)CC(=O)[C@]1(Cc2ccc(Cl)cc2)CC[N@@H+](Cc2ccccc2)CC1	B		0.33392975	23.0		0.62	0.57	0.69	0.0	0.16	8.0
+233	f42_233_STING1_didx1449	STING1	top50_cosine	1449		[NH3+]CCc1c[nH]cn1	B		0.33382505	24.0		0.77	0.55	0.8	0.0	0.15	4.86
+234	f42_234_STING1_didx7716	STING1	top50_cosine	7716		Nc1nc2c(ncn2[C@@H]2O[C@@H]3CO[P@](=O)([O-])O[C@H]4[C@@H](O)[C@H](n5cnc6c(=O)[nH]c(N)nc65)O[C@@H]4CO[P@](=O)([O-])O[C@H]3[C@H]2O)c(=O)[nH]1	B		0.33372402	25.0		0.7	0.56	0.73	0.0	0.13	3.27
+235	f42_235_STING1_didx13126	STING1	top50_cosine	13126		[H]C1=Nc2c(N([H])[H])nc([H])nc2N1[C@]1([H])O[C@]([H])(C([H])([H])O[P@@](=O)([O-])O[P@](=O)([O-])OP(=O)([O-])[O-])[C@@]2([H])O[C@@]3(O[C@]21[H])C([N+](=O)[O-])=C([H])C([N+](=O)[O-])=C([H])C3=[N+3](=O)=O	B		0.3336002	26.0		0.8	0.58	0.82	0.0	0.13	3.17
+236	f42_236_STING1_didx1991	STING1	top50_cosine	1991		C[N@H+]1[C@@H]2CC[C@H]1C[C@H](O[C]([O-])[C@H](CO)c1ccccc1)C2	B		0.3325961	27.0		0.67	0.57	0.72	0.0	0.14	6.58
+237	f42_237_STING1_didx795	STING1	top50_cosine	795		O=C([O-])[C@H](CO)[NH2+]c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]	B		0.33253855	28.0		0.79	0.55	0.82	0.0	0.15	4.29
+238	f42_238_STING1_didx7611	STING1	top50_cosine	7611		O=C([O-])C(=O)CC(=O)[C@]1(Cc2ccc(Cl)cc2)CC[N@H+](Cc2ccccc2)CC1	B		0.33231172	29.0		0.62	0.57	0.69	0.0	0.16	7.95
+239	f42_239_STING1_didx13741	STING1	top50_cosine	13741		O=C([O-])c1cccc(-c2cc(C(=O)[O-])ncc2C(=O)[O-])c1	B		0.332271	30.0		0.7	0.58	0.74	0.0	0.13	6.08
+240	f42_240_STING1_didx2339	STING1	top50_cosine	2339		O=C(NCCOP(=O)([O-])[O-])c1ccc(OC(F)(F)F)cc1	B		0.332219	31.0		0.59	0.63	0.66	0.0	0.13	9.57
+241	f42_241_STING1_didx2980	STING1	top50_cosine	2980		O=C([O-])c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c1	B		0.33198428	32.0		0.89	0.56	0.91	0.0	0.16	2.29
+242	f42_242_STING1_didx3113	STING1	top50_cosine	3113		O=C1[C@@H]2CO[P@](=O)([O-])O[P@](=O)([O-])OC[C@H]3O[C@H]([C@H](O)[C@@H]3O)n3cnc4c(ncn4[C@H](O2)[C@@H]1O)c3=O	B		0.3319624	33.0		0.76	0.59	0.79	0.0	0.13	3.35
+243	f42_243_STING1_didx4160	STING1	top50_cosine	4160		CC[C@@H](Cc1c(I)cc(I)c(O)c1I)C(=O)[O-]	B		0.33191696	34.0		0.89	0.57	0.91	0.0	0.16	1.98
+244	f42_244_STING1_didx5807	STING1	top50_cosine	5807		O=C([O-])c1ccccc1NCc1ccco1	B		0.3315778	35.0		0.77	0.57	0.81	0.0	0.16	3.89
+245	f42_245_STING1_didx2502	STING1	top50_cosine	2502		NC(=O)C1=CN([C@@H]2O[C@H](CO[P@@](=O)([O-])O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	B		0.33088848	36.0		0.72	0.54	0.75	0.0	0.13	2.9
+246	f42_246_STING1_didx13191	STING1	top50_cosine	13191		NC(=O)C1=CN([C@@H]2O[C@H](CO[P@](=O)([O-])O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	B		0.33084658	37.0		0.72	0.54	0.75	0.0	0.13	2.94
+247	f42_247_STING1_didx1288	STING1	top50_cosine	1288		[NH2+]=c1ccn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])[O-])O2)c(=O)[nH]1	B		0.33060154	38.0		0.91	0.57	0.92	0.0	0.16	1.78
+248	f42_248_STING1_didx5016	STING1	top50_cosine	5016		CO[C@@H]1[C@H](O[P@@](=O)([O-])OC[C@H]2C[N@H+](Cc3c[nH]c4c(N)ncnc34)C[C@@H]2O[P@@](=O)([O-])OC[C@H]2O[C@@H](n3cnc4c(=O)[nH]c(=[NH2+])[nH]c43)[C@H](OC)[C@@H]2O[P@](=O)([O-])OCCCO)[C@@H](CO)O[C@H]1n1cnc2c(=O)[nH]c(=[NH2+])[nH]c21	B		0.33047727	39.0		0.58	0.56	0.64	0.0	0.13	5.33
+249	f42_249_STING1_didx4937	STING1	top50_cosine	4937		O=C([O-])[C@H]1CC(=O)N(c2ccccc2O)C1	B		0.33020252	40.0		0.86	0.57	0.87	0.0	0.15	2.55
+250	f42_250_STING1_didx13526	STING1	top50_cosine	13526		O=C([O-])c1ccc(Cn2cc[nH+]c2)o1	B		0.3298535	41.0		0.85	0.57	0.87	0.0	0.15	3.0
+251	f42_251_STING1_didx796	STING1	top50_cosine	796		[H]C1=C([H])C(=[N+3](=O)=O)OC1=C=NN1C([O-])OC([H])([H])C1([H])[H]	B		0.32961288	42.0		0.82	0.57	0.85	0.0	0.16	2.54
+252	f42_252_STING1_didx517	STING1	top50_cosine	517		NC(=O)c1csc([C@@H]2O[C@H](CO[P@@](=O)([O-])C[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)n1	B		0.3295563	43.0		0.67	0.55	0.71	0.0	0.13	3.56
+253	f42_253_STING1_didx10304	STING1	top50_cosine	10304		[NH3+]Cc1ccc(-c2ccccc2)c(Cl)c1	B		0.3289947	44.0		0.59	0.59	0.67	0.0	0.15	9.45
+254	f42_254_STING1_didx7278	STING1	top50_cosine	7278		NC(=O)C1=CN([C@H]2O[C@H](CO[P@@](=O)([O-])O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1	B		0.32832375	45.0		0.72	0.54	0.75	0.0	0.13	2.93
+255	f42_255_STING1_didx4646	STING1	top50_cosine	4646		O=C([O-])c1cccc2c3c(n(Cc4ccccc4)c12)CCCC3	B		0.32830998	46.0		0.69	0.59	0.75	0.0	0.16	6.13
+256	f42_256_STING1_didx7859	STING1	top50_cosine	7859		C[C@](CO[C]([O-])Cc1ccccc1)([C@@H](Nc1c(C(=O)[O-])cc2ccccn12)C(=O)[O-])[S@@H+](=O)[O-]	B		0.32817757	47.0		0.63	0.58	0.69	0.0	0.14	7.1
+257	f42_257_STING1_didx8563	STING1	top50_cosine	8563		CCC(=O)N[C@H]1[C@H]([C@H](O)[C@H](O)CO)O[C@@](OCCCn2cc(C[NH+](Cc3cn(CCCO[C@]4(C(=O)[O-])C[C@H](O)[C@@H](NC(=O)CC)[C@H]([C@H](O)[C@H](O)CO)O4)nn3)Cc3cn(CCCO[C@]4(C(=O)[O-])C[C@H](O)[C@@H](NC(=O)CC)[C@H]([C@H](O)[C@H](O)CO)O4)nn3)nn2)(C(=O)[O-])C[C@@H]1O	B		0.32806996	48.0		0.34	0.53	0.44	0.0	0.13	
+258	f42_258_STING1_didx2546	STING1	top50_cosine	2546		O=c1ccn([C@@H]2O[C@H](CO)[C@@H]([N@H+]3CC[C@@H](C(=O)[O-])CC3)[C@@H]2O)c(=O)[nH]1	B		0.32801163	49.0		0.75	0.57	0.79	0.0	0.16	4.48
+259	f42_259_STING1_didx4916	STING1	top50_cosine	4916		C[NH2+][C@@H](C)CC1=C[C@H]2OCO[C@H]2C=C1	B		0.3278607	50.0		0.73	0.58	0.78	0.0	0.15	5.67
+260	f42_260_STING1_didx2198	STING1	scaffold_div	2198		O=C([O-])[C@@]1(O)C[C@@H](O)[C@@H](O)[C@@H]([C@H](O)COP(=O)([O-])[O-])O1	B		0.3275908	51.0		0.6	0.55	0.65	0.0	0.13	8.46
+261	f42_261_STING1_didx13742	STING1	scaffold_div	13742		[NH3+][C@H]1[C@@H](OP(=O)([O-])[O-])O[C@H](CO[C@@H]2O[C@H](CO[C@]3(C(=O)[O-])C[C@@H](O[C@]4(C(=O)[O-])C[C@@H](O)[C@@H](O)[C@@H]([C@H](O)CO[C@]5(C(=O)[O-])C[C@@H](O)[C@@H](O)[C@@H]([C@H](O)CO)O5)O4)[C@@H](O)[C@@H]([C@H](O)CO)O3)[C@@H](OP(=O)([O-])[O-])[C@H](O)[C@H]2[NH3+])[C@@H](O)[C@@H]1O	B		0.3275005	52.0		0.5	0.57	0.58	0.0	0.12	9.04
+262	f42_262_STING1_didx8607	STING1	scaffold_div	8607		O=C([O-])c1cc(NCc2cccc([N+](=O)[O-])c2)cc(C(=O)[O-])c1	B		0.32731032	53.0		0.75	0.56	0.78	0.0	0.15	5.22
+263	f42_263_STING1_didx3630	STING1	scaffold_div	3630		CN(C)c1ccc(C(=O)[O-])cc1	B		0.327293	54.0		0.74	0.57	0.78	0.0	0.16	5.45
+264	f42_264_STING1_didx14670	STING1	scaffold_div	14670		CCCCCCCCCCCCCCCCC[C@H]1C[N@H+](C)[C@@H]([C@H](O[C@@H]2O[C@H](C[NH3+])[C@@H](O)[C@H]2O)[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)C(=O)N(C)[C@@H]1C(=O)[O-]	B		0.32717025	55.0		0.47	0.54	0.55	0.0	0.14	10.11
+265	f42_265_STING1_didx726	STING1	scaffold_div	726		O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2OP(=O)([O-])[O-])c(=O)[nH]1	B		0.32712954	56.0		0.87	0.55	0.88	0.0	0.16	2.57
+266	f42_266_STING1_didx14355	STING1	scaffold_div	14355		CC[C@H](C)[C]([O-])O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)[O-])[C@H]21	B		0.32709712	57.0		0.61	0.55	0.67	0.0	0.16	8.56
+267	f42_267_STING1_didx7040	STING1	scaffold_div	7040		O=C([O-])[C@]1(O)C=C(CO)[C@@H](O)[C@H](O)C1	B		0.32672462	59.0		0.83	0.55	0.85	0.0	0.16	3.03
+268	f42_268_STING1_didx5883	STING1	scaffold_div	5883		Cc1cc(C[NH3+])c(C)o1	B		0.32665136	60.0		0.72	0.56	0.76	0.0	0.15	6.38
+269	f42_269_STING1_didx7828	STING1	scaffold_div	7828		[NH2+]=c1[nH]c(=O)c2[nH]c[n+]([C@@H]3O[C@H](CO[P@@](=O)([O-])O[C@H]4[C@@H](O)[C@H]([n+]5c[nH]c6c(=O)[nH]c(=[NH2+])[nH]c65)O[C@@H]4COP(O)O)[C@@H](O[P+](=O)[O-])[C@H]3O)c2[nH]1	B		0.3265573	61.0		0.64	0.54	0.7	0.0	0.16	4.42
+270	f42_270_STING1_didx385	STING1	scaffold_div	385		C/C(=C\[C]([O-])OCCCCCCCCC(=O)[O-])C[C@@H]1OC[C@H](C[C@@H]2O[C@H]2[C@@H](C)[C@H](C)O)[C@@H](O)[C@H]1O	B		0.32641447	62.0		0.65	0.56	0.7	0.0	0.13	6.64
+271	f42_271_STING1_didx9426	STING1	scaffold_div	9426		Cc1cc2c(cc1C)N1[C@@]3(C(=O)NC(=O)N=C3N2C[C@H](O)[C@H](O)[C@H](O)CO[P@](=O)([O-])O[P@](=O)([O-])OC[C@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)[C@H](c2ccccc2)C[C@]1(C)[NH3+]	B		0.32629654	63.0		0.66	0.56	0.71	0.0	0.13	3.24
+272	f42_272_STING1_didx160	STING1	scaffold_div	160		[NH2+]=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@@H]3OP(=O)([O-])[O-])c2[nH]1	B		0.32590535	64.0		0.89	0.56	0.9	0.0	0.16	2.15
+273	f42_273_STING1_didx8434	STING1	scaffold_div	8434		Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2CO[P@@](=O)([O-])O[C@@H]3[C@H](O)[C@@H](CO[P@](=O)([O-])O[C@@H]1[C@@H]2O)O[C@H]3n1cnc2c(=O)[nH]c(=[NH2+])[nH]c21	A		0.3256159	66.0		0.75	0.58	0.78	0.0	0.13	2.9
+274	f42_274_STING1_didx4680	STING1	scaffold_div	4680		O=C(COP(=O)([O-])[O-])N(O)CCCOP(=O)([O-])[O-]	B		0.32539815	67.0		0.57	0.6	0.64	0.0	0.13	9.54
+275	f42_275_STING1_didx12157	STING1	scaffold_div	12157		[NH2+]=c1ccn([C@@H]2O[C@@H]3CO[P@](=O)([O-])O[C@H]3[C@H]2O)c(=O)[nH]1	B		0.32475266	72.0		0.89	0.57	0.89	0.0	0.13	2.19
+276	f42_276_STING1_didx13908	STING1	scaffold_div	13908		NC(=O)C1=CN([C@@H]2S[C@H](CO[P@](=O)([O-])O[P@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)CC=C1	B		0.3245504	74.0		0.68	0.58	0.73	0.0	0.13	3.18
+277	f42_277_STING1_didx8588	STING1	scaffold_div	8588		Nc1nc2c(ncn2[C@@H]2O[C@@H]3CO[P@@](=O)([O-])O[C@H]4[C@@H](O)[C@H](n5cnc6c(=O)[nH]c(N)nc65)O[C@@H]4CO[P@@](=O)([O-])O[C@H]3[C@H]2O)c(=O)[nH]1	A		0.32446057	75.0		0.7	0.57	0.74	0.0	0.13	3.31
+278	f42_278_STING1_didx5400	STING1	scaffold_div	5400		O=C([O-])c1ccc(=O)n(O)c1	B		0.32443216	76.0		0.85	0.55	0.87	0.0	0.15	2.62
+279	f42_279_STING1_didx7473	STING1	scaffold_div	7473		[H]/[O+]=C1/C(CC(=O)[O-])=N[NH+]=C2NC(=[NH2+])NC(=O)[C@@H]21	B		0.32410255	78.0		0.9	0.56	0.9	0.0	0.15	1.98
+280	f42_280_STING1_didx5015	STING1	scaffold_div	5015		CO[C@@H]1[C@H](O[P@](=O)([O-])OCCCCO)[C@@H](CO[P@@](=O)([O-])O[C@H]2C[N@H+](Cc3c[nH]c4c(N)ncnc34)C[C@@H]2CO[P@@](=O)([O-])OCCCO)O[C@H]1n1cnc2c(=O)[nH]c(=[NH2+])[nH]c21	B		0.32406428	79.0		0.66	0.57	0.7	0.0	0.13	4.31
+281	f42_281_STING1_didx15172	STING1	scaffold_div	15172		[NH3+]Cc1cccc(-c2cccc(C(=O)Nc3ccccc3CC(=O)[O-])c2)c1	B		0.32395512	80.0		0.69	0.58	0.75	0.0	0.15	5.44
+282	f42_282_STING1_didx14083	STING1	scaffold_div	14083		CC(=O)N1c2ccccc2N(Cc2ccccc2C(=O)[O-])C[C@@H]1C1CC1	B		0.32395056	81.0		0.68	0.57	0.73	0.0	0.15	5.85
+283	f42_283_STING1_didx1841	STING1	scaffold_div	1841		Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@](=O)([O-])O[P@](=O)([O-])OC[C@H]2O[C@@H](O)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1OP(=O)([O-])[O-]	B		0.32341462	87.0		0.78	0.6	0.81	0.0	0.13	3.27
+284	f42_284_STING1_didx1805	STING1	scaffold_div	1805		O=C([O-])[C@@H]1C[C@H](O)[C@H](O)[C@H](O[C@H]2[C@H](O)[C@H](O)[C@H](O[C@H]3[C@H](O)[C@H](O)[C@H](O[C@H]4[C@H](O)[C@H](O)[C@@H](O)O[C@@H]4C(=O)[O-])O[C@H]3C(=O)[O-])O[C@@H]2C(=O)[O-])O1	B		0.32326755	88.0		0.51	0.54	0.59	0.0	0.16	9.04
+285	f42_285_STING1_didx8272	STING1	scaffold_div	8272		O=C([O-])c1ccc(-c2ccccc2)nc1	B		0.32320875	89.0		0.67	0.58	0.73	0.0	0.15	7.09
+286	f42_286_STING1_didx7347	STING1	scaffold_div	7347		Nc1ccc(C[C]([O-])OCCc2ccccc2)c(C(=O)[O-])c1	B		0.3230588	92.0		0.72	0.57	0.77	0.0	0.15	5.38
+287	f42_287_STING1_didx4444	STING1	scaffold_div	4444		[NH3+][C@@H](C[C@]1(C(=O)[O-])C[C@H]2OC[C@@H](O)[C@@H](O)[C@H]2O1)C(=O)[O-]	B		0.32280567	96.0		0.78	0.55	0.79	0.0	0.13	4.04
+288	f42_288_STING1_didx11022	STING1	scaffold_div	11022		Cc1c(/C(O)=C/[C@H](O)C(=O)[O-])ccc2[nH]ccc12	B		0.32254833	98.0		0.82	0.58	0.85	0.0	0.16	2.92
+289	f42_289_STING1_didx2371	STING1	scaffold_div	2371		CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@@H](O[C]([O-])CCC(=O)[O-])CC[C@]4(C)[C@H]3CC[C@]12C	B		0.32241303	99.0		0.55	0.57	0.62	0.0	0.13	10.72
+290	f42_290_STING1_didx276	STING1	scaffold_div	276		C[C]([O-])O[C@@H]1CC[C@@]2(C)[C@@H](CC=C3[C@@H]2CC[C@@]2(C)[C@H]([C@@H](CC(=O)C=C(C)C)C(=O)[O-])[C@@H](O)C[C@]32C)[C@]1(C)C(=O)[O-]	B		0.32234937	100.0		0.54	0.55	0.61	0.0	0.13	10.51
+291	f42_291_STING1_didx1629	STING1	scaffold_div	1629		C[N@H+]1[C@H]2CC[C@@H]1[C@@H](C(=O)[O-])[C@@H](O[C]([O-])c1ccccc1)C2	B		0.32222372	101.0		0.74	0.59	0.78	0.0	0.15	4.82
+292	f42_292_STING1_didx3566	STING1	scaffold_div	3566		[H]/N=C1/NC(=O)[C@@H]2C(=[NH+]1)N([C@@H]1O[C@H](CO[P@@](=O)([O-])O[P@](=O)([O-])O[P@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(=O)[nH]c(=[NH2+])[nH]c54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]1O)C[N@@H+]2C	B		0.32209033	102.0		0.66	0.54	0.71	0.0	0.16	3.29
+293	f42_293_STING1_didx5701	STING1	scaffold_div	5701		O=c1ccn([C@@H]2O[C@H](CO[P@](=O)([O-])O[P@@](=O)([O-])O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H]2O)c(=O)[nH]1	B		0.3220582	103.0		0.82	0.55	0.84	0.0	0.16	2.5
+294	f42_294_STING1_didx6906	STING1	scaffold_div	6906		O=C([O-])C(=O)CC(=O)[C@]1(Cc2ccc(Cl)cc2)CC[N@@H+](CC2CCCCC2)CC1	B		0.32192448	104.0		0.61	0.57	0.68	0.0	0.16	8.3
+295	f42_295_STING1_didx9708	STING1	scaffold_div	9708		O=C([O-])c1ccccc1[S@@](=O)Cc1ccccc1	B		0.32190427	105.0		0.76	0.57	0.8	0.0	0.16	4.8
+296	f42_296_STING1_didx14865	STING1	scaffold_div	14865		O=C1C[C@H](P(=O)([O-])[O-])C(=O)N1O	B		0.32189727	106.0		0.66	0.61	0.71	0.0	0.13	8.05
+297	f42_297_STING1_didx275	STING1	scaffold_div	275		C[C]([O-])O[C@@H]1CC[C@@]2(C)[C@@H](CC=C3[C@@H]2C[C@H](O)[C@@]2(C)[C@H]([C@@H](CC(=O)C=C(C)C)C(=O)[O-])[C@@H](O)C[C@]32CO)[C@]1(C)[C]([O-])O[C@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O	B		0.32163903	107.0		0.43	0.53	0.53	0.0	0.15	12.86
+298	f42_298_STING1_didx8676	STING1	scaffold_div	8676		O=C([O-])c1ccc(-c2cc(=O)c3ccccc3o2)cc1	B		0.3214905	108.0		0.66	0.58	0.72	0.0	0.16	6.43
+299	f42_299_STING1_didx5406	STING1	scaffold_div	5406		O=C([O-])[C@H]1Cc2c(o[nH]c2=O)C[NH2+]1	B		0.32124683	112.0		0.86	0.56	0.88	0.0	0.16	2.49
+300	f42_300_STING1_didx1271	STING1	scaffold_div	1271		C=C(O[C@H]1C=CC=C(C(=O)[O-])[C@@H]1O)C(=O)[O-]	B		0.32122326	113.0		0.8	0.55	0.83	0.0	0.16	3.41
+301	f42_301_STING1_didx8339	STING1	scaffold_div	8339		O=C([O-])C[C@@]12O[C@H]3C=CC[NH2+][C@H]3[C@@H]1C(=O)N[C@H]2C(=O)[O-]	B		0.32116404	114.0		0.72	0.56	0.77	0.0	0.16	5.85
+302	f42_302_STING1_didx9588	STING1	scaffold_div	9588		C[C@@H]1C[C@H](C)C[C@H](C)[C@@H](O)C[C]([O-])O[C@H]([C@@H]2CC[C@H]2C(=O)[O-])C/C=C/C=C(\C#N)[C@H](O)[C@@H](C)C1	B		0.32109508	115.0		0.62	0.56	0.67	0.0	0.13	8.13
+303	f42_303_STING1_didx22	STING1	scaffold_div	22		O=P([O-])([O-])OC[C@H]1O[C@](O)(COP(=O)([O-])[O-])[C@@H](O)[C@@H]1O	B		0.32098982	116.0		0.62	0.56	0.67	0.0	0.13	8.01
+304	f42_304_STING1_didx8309	STING1	scaffold_div	8309		[H]/N=c1\ccn([C@@H]2O[C@H](CO[P@@](=O)([O-])O[C@H]3[C@@H](O)[C@H](n4cc/c(=N\[H])[nH]c4=O)O[C@@H]3CO[P@@H](=O)[O-])[C@@H](O[P@@](=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](n4cc(CCSC[C@H](NC(=O)CC[C@@H](NC(=O)[C@H](C)NC(=O)[C@@H](C)O[C@H]5[C@H](O)[C@@H](CO)O[C@H](O[P@@](=O)([O-])O[P@](=O)([O-])OC[C@H]6O[C@@H](n7ccc(=O)[nH]c7=O)[C@H](O)[C@@H]6O)[C@@H]5NC(C)=O)C(=O)[O-])C(=O)N[C@H](C)C(=O)N[C@H](C)C(=O)[O-])nn4)[C@@H]3O)[C@H]2O)c(=O)[nH]1	B		0.3208479	118.0		0.44	0.57	0.53	0.0	0.13	
+305	f42_305_STING1_didx14707	STING1	scaffold_div	14707		[NH2+]=c1[nH]c(=O)c2c(Cc3ccc(C(=O)Nc4cc(C(=O)[O-])ccc4C(=O)[O-])cc3)c[nH]c2[nH]1	B		0.32083923	119.0		0.64	0.56	0.7	0.0	0.15	6.37
+306	f42_306_STING1_didx7142	STING1	scaffold_div	7142		COc1ccc(C[C@@H]2C(=O)[C@@H](O)[C@H](O)C[C@]2(O)C(=O)[O-])cc1	B		0.32074565	120.0		0.84	0.58	0.86	0.0	0.16	3.11
+307	f42_307_STING1_didx8542	STING1	scaffold_div	8542		[NH3+][C@@H](c1ccc(-n2cccn2)cc1)P(=O)([O-])[O-]	B		0.32025844	124.0		0.67	0.57	0.72	0.0	0.15	7.03
+308	f42_308_STING1_didx5011	STING1	scaffold_div	5011		COC[C@H]1O[C]([O-])C(C)=C2C(=O)C(=O)[C@@H]3[C@H]([C@H](O[C](C)[O-])C[C@]4(C)C(=O)CC[C@@H]34)[C@]21C	B		0.320014	126.0		0.62	0.55	0.68	0.0	0.16	7.8
+309	f42_309_STING1_didx3025	STING1	scaffold_div	3025		CC(C)c1c(C(=O)N(C)[C@H](C)c2ccccc2)nn(-c2ccc(F)cc2)c1CC[C@@H](O)C[C@@H](O)CC(=O)[O-]	B		0.31888747	135.0		0.47	0.57	0.56	0.0	0.15	12.77
+310	f42_310_STING1_ADU-S100	STING1	class_c_anchor	-1	ADU-S100	Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2COP(=O)([S-])O[C@@H]3[C@H](O)[C@@H](COP([O-])(=S)O[C@H]2[C@H]1O)O[C@H]3n1cnc2c(N)ncnc21.[Na+].[Na+]	C	clinical	0.2867981195449829		913.0	0.73	0.55	0.75	0.0	0.13	2.88
+311	f42_311_STING1_SR-717	STING1	class_c_anchor	-1	SR-717	O=C(Nc1cc(F)c(F)cc1C(=O)[O-])c1ccc(-n2ccnc2)nn1.[Li+]	C	tool	0.2412517070770263		3956.0	0.9	0.59	0.92	0.0	0.16	1.89
+312	f42_312_STING1_2_3_-cGAMP	STING1	class_c_anchor	-1	2'3'-cGAMP	Nc1nc2c(ncn2[C@@H]2O[C@@H]3COP(=O)(O)O[C@H]4[C@@H](O)[C@H](n5cnc6c(N)ncnc65)O[C@@H]4COP(=O)(O)O[C@@H]2[C@@H]3O)c(=O)[nH]1	C	natural_ligand	0.2262168526649475		5301.0	0.73	0.55	0.75	0.0	0.13	3.28
+313	f42_313_STING1_MK-1454	STING1	class_c_anchor	-1	MK-1454	Nc1nc2c(ncn2[C@@H]2O[C@@H]3COP(O)(=S)O[C@H]4[C@H](F)[C@H](n5cnc6c(N)ncnc65)O[C@@H]4COP(O)(=S)O[C@@H]2[C@@H]3F)c(=O)[nH]1	C	clinical	0.221349611878395		5698.0	0.73	0.57	0.76	0.0	0.13	3.32
+314	f42_314_STING1_C-176	STING1	class_c_anchor	-1	C-176	CCCCc1ccc(NC(=O)c2ccc([N+](=O)[O-])o2)cc1	C	tool_antagonist	0.1620464920997619		14996.0	0.57	0.58	0.64	0.0	0.15	9.98
+315	f42_315_STING1_H-151	STING1	class_c_anchor	-1	H-151	CCCCCCc1ccc(NC(=O)c2ccc([N+](=O)[O-])o2)cc1	C	tool_antagonist	0.1423436999320984		22802.0	0.52	0.57	0.6	0.0	0.15	11.72
+316	f42_316_STING1_diABZI_compound_3	STING1	class_c_anchor	-1	diABZI compound 3	CCn1nc(C)cc1C(=O)Nc1nc2cc(C(N)=O)cc(OC)c2n1C/C=C/Cn1c(NC(=O)c2cc(C)nn2CC)nc2cc(C(N)=O)cc(OCCCN3CCOCC3)c21	C	gold_standard	0.0509069263935089		181035.0	0.77	0.6	0.81	0.0	0.15	
+317	f42_317_STING1_MSA-2	STING1	class_c_anchor	-1	MSA-2	COc1cc2cc(C(=O)CCC(=O)O)sc2cc1OC	C	gold_standard	0.0155530394986271		314284.0	0.79	0.57	0.82	0.0	0.16	3.16
+318	f42_318_STING1_Loratadine	STING1	negative_control	61696	Loratadine	CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1	B	negative_control	0.07150136	120067.0		0.6	0.57	0.67	0.0	0.15	8.11
+319	f42_319_STING1_Amoxicillin	STING1	negative_control	219139	Amoxicillin	CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O	B	negative_control	0.0135055	322439.0		0.73	0.57	0.78	0.0	0.15	4.96
+320	f42_320_STING1_Levothyroxine	STING1	negative_control	42220	Levothyroxine	N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O	B	negative_control	0.15974762	15677.0		0.6	0.59	0.66	0.0	0.13	9.04
+321	f42_321_STING1_Warfarin	STING1	negative_control	54520	Warfarin	CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O	B	negative_control	0.05163759	178619.0		0.78	0.57	0.82	0.0	0.16	4.2
+322	f42_322_STING1_Aspirin	STING1	negative_control	-1	Aspirin	CC(=O)Oc1ccccc1C(=O)O	C	negative_control	0.1668978333473205		13592.0	0.8	0.55	0.83	0.0	0.15	3.82

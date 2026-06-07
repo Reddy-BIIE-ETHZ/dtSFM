@@ -1,0 +1,4 @@
+target	anchor	class	cosine_rank	iptm	interface_pae_min	source
+NLRP3	MCC950	B	3	0.73	8.38	F42_results.tsv f42_002_NLRP3_MCC950
+CD73	AB680	B	503	0.95	0.98	F42_results.tsv f42_200_CD73_AB680
+STING1	MSA-2	C	314284	0.79	3.16	F42_results.tsv f42_317_STING1_MSA-2

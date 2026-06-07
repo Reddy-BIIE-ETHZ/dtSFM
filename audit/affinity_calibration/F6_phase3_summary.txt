@@ -1,0 +1,25 @@
+dtSFM v3 §F.6 Phase 3 — Calibration analysis
+================================================================
+
+Inputs: 63,324 usable test pairs (status='ok', uncensored).
+  klaeger        4,345
+  davis          7,429
+  bindingdb     51,550
+
+Class reclassification: 5-bucket scheme.
+  A                = pair in train (memorization upper bound)
+  B                = target seen, drug-OOD
+  B_drug_seen_only = drug seen, target-OOD
+  B_combo          = drug seen + target seen, pair NOT seen
+  C_strict         = drug NOT seen AND target NOT seen (HEADLINE)
+
+Stratum: TIGHT pK_d≥7, MODERATE 5–7, WEAK <5
+
+
+## HEADLINE: Class C_strict × TIGHT (full OOD, training regime)
+  klaeger                 n=    0  Pearson=nan  RMSE=nan log10K_d  CI=nan
+  davis                   n=  254  Pearson=-0.078  RMSE=1.433 log10K_d  CI=0.470
+  bindingdb               n=1,032  Pearson=0.098  RMSE=2.006 log10K_d  CI=0.545
+  ALL_3_C_STRICT          n=1,286  Pearson=0.081  RMSE=1.907 log10K_d  CI=0.534
+
+## Full per-cell metrics: see F6_phase3_metrics.tsv

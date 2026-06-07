@@ -1,0 +1,9 @@
+split	threshold	n_total_queries	n_above_threshold	leakage_frac	verdict
+val	1.0	2296	1411	0.6145	red >10%
+val	0.8	2296	1975	0.8602	red >10%
+val	0.6	2296	2050	0.8929	red >10%
+val	0.4	2296	2129	0.9273	red >10%
+test	1.0	2296	1396	0.608	red >10%
+test	0.8	2296	1966	0.8563	red >10%
+test	0.6	2296	2050	0.8929	red >10%
+test	0.4	2296	2139	0.9316	red >10%
