@@ -17,6 +17,7 @@ when the paper is ready — publishing is permanent.
 
 | Bundle | Size | Backs |
 |--------|------|-------|
+| `decoder_af3_all_cofolds_raw.tar.gz` | 1046 MB | §5.4 — complete raw AF3 cofold outputs (on-target + off-target selectivity) |
 | `decoder_design_af3_cofolds.tar.gz` | 143 MB | §5.4 — 888 on-target AF3 cofold CIFs + 868 confidence summaries + manifest (Figs 5–6) |
 | `affinity_calibration_cohorts.tar.gz` | 57 MB | §3.3 / §S.6 — per-compound affinity cohorts + 522K training-drug library |
 | `approved_drug_anchor_cofolds.tar.gz` | 38 MB | approved-drug anchor cofolds (gallery reference) |
@@ -24,14 +25,13 @@ when the paper is ready — publishing is permanent.
 | `repurposing_af3_cofolds.tar.gz` | 1.4 MB | §5.3 — NLRP3/CD73/STING1 representative cofolds |
 | `klaeger2017_kdapp_long.tsv.gz` | 0.6 MB | §5.1 Klaeger 2017 K_d^app table |
 
+All 7 bundles (≈1.3 GB) are uploaded — including the complete raw AF3 cofold set
+(on-target + off-target selectivity).
+
 ## Remaining to do
-1. **(Optional)** The ~624 off-target *selectivity* cofold structures (~8.8 GB raw)
-   are **not** in this bundle — their confidence summaries are already inside
-   `decoder_design_af3_cofolds.tar.gz`. Add the raw CIFs as a separate large
-   bundle if reviewers want them.
-2. Add the **bioRxiv DOI** to the metadata `related_identifiers` once the preprint
+1. Add the **bioRxiv DOI** to the metadata `related_identifiers` once the preprint
    is posted.
-3. Review the draft on the web UI, then **Publish** (mints the DOI permanently).
+2. Review the draft on the web UI, then **Publish** (mints the DOI permanently).
 
 > No access token is stored in this repository. Provide it via `ZENODO_TOKEN`
 > when running the upload script.
