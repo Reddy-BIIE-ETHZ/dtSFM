@@ -40,7 +40,7 @@ For each row in `docs/reproducing_paper_claims_paper1.md`'s claim tables:
 
 Special handling:
 - Rows whose source path is "on Euler; rsync" are TODOs (not FAILs) since the underlying §5.4 aggregators are preliminary and being regenerated post-audit.
-- Rows whose source is "TODO — preliminary aggregate being regenerated" are TODOs by Sai's pre-audit direction, not audit failures.
+- Rows whose source is "TODO — preliminary aggregate being regenerated" are TODOs by pre-audit specification, not audit failures.
 
 ### Leg 2 — Direct leakage measurement
 
@@ -103,7 +103,7 @@ Any WIP claim **not** mapped in the paper-claims doc. These are unverified-by-co
 
 ## 4. Post-audit handoff
 
-Once 3.1–3.5 is written, Agent A (Sai + claude) will:
+Once 3.1–3.5 is written, Agent A (the developer) will:
 
 - Triage PARTIALs / FAILs / surfaced gaps; write `audit/orthogonal_verification/audit_closure_paper1.md` documenting each disposition.
 - Apply fixes where warranted.
@@ -113,7 +113,7 @@ Once 3.1–3.5 is written, Agent A (Sai + claude) will:
 
 ## 5. Known-acknowledged TODOs that are NOT audit failures
 
-Per pre-audit direction by Sai (2026-05-16):
+Per pre-audit specification (2026-05-16):
 
 - §5.4 F5_3_* decoder-portfolio aggregates: `F5_3_strong_candidates.tsv`, `F5_3_paper_headline_table.tsv`, `F5_3_candidate_summary.tsv`, `F5_2_selectivity_reranked.tsv`, `F5_anchor_drift.tsv`, `F5_summary.tsv` — preliminary, being regenerated from raw cofolds post-audit. Marked **TODO** in the paper-claims doc.
 - 3 Euler-side decoder_af3 files (`decoder_cohort.tsv`, `F5_results.tsv`, `F5_2_named_offtarget_exact.tsv`) — exist on Euler but not committed in this tree at this tag. Not audit failures; will land alongside the F5_3_* regeneration.

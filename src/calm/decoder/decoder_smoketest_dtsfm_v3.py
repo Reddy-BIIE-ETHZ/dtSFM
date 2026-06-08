@@ -7,8 +7,8 @@ decoder. Its only jobs are:
             node and produces the expected output shapes for one known
             (drug, protein) pair from training.
 
-  Phase B:  Build a "competence map" for the 10 decoder targets that Sai
-            approved on 2026-05-08 — for each target gene, compute the encoder's
+  Phase B:  Build a "competence map" for the 10 decoder targets that were
+            selected for design — for each target gene, compute the encoder's
             global protein vector, then the global drug vector for each known
             approved binder of that target, then their cosine similarity.
             High mean cosine = encoder recognises that target's chemotype well

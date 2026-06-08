@@ -113,7 +113,7 @@ de-novo within-species chemistry discovery.
 
 ### §C.6 — Scope-limited ortholog audit (paper-discussed compounds only)
 
-Per Sai's direction: ortholog leakage is documented only for compounds
+By design, ortholog leakage is documented only for compounds
 discussed in the paper text/figures, not for the full 522K-drug corpus or
 for every screen hit. The scope is:
 

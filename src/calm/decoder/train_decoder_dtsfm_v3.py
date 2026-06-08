@@ -1,6 +1,6 @@
 """train_decoder_dtsfm_v3.py — Train the dtSFM v3 decoder (v0.1, CE-only).
 
-v0.1 design (locked 2026-05-09 with Sai):
+v0.1 design:
     - Pure cross-entropy on SMILES tokens (auxiliary cosine deferred to v0.2).
     - Teacher forcing: predict tokens[:, 1:] from tokens[:, :-1].
     - bf16 mixed precision; AdamW lr=2e-4 cosine to 1e-6, 5K-step warmup

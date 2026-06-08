@@ -37,7 +37,7 @@ v0.1 design choices:
 v0.2 will add:
     - Auxiliary cosine-distillation loss (decoder hidden-state pooled →
       project to MoLFormer-768 space → cosine vs cached drug embedding of
-      ground-truth drug). Deferred per Sai 2026-05-09 — v0.1 = pure CE.
+      ground-truth drug). Deferred to v0.2 — v0.1 = pure CE.
 """
 
 from __future__ import annotations
