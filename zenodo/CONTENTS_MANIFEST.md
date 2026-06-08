@@ -1,6 +1,6 @@
-# Zenodo deposit — contents manifest (Paper 1 supplement)
+# Zenodo deposit — contents manifest
 
-Title: **dtSFM v3 — candidate pools and AlphaFold-3 verification (Paper 1 supplement)**
+Title: **dtSFM v3 — candidate pools and AlphaFold-3 verification**
 License: CC-BY-4.0 · Access: open
 
 This is the large-data companion to the GitHub code repo and the Hugging Face

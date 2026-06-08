@@ -1,6 +1,6 @@
-# Zenodo deposit (Paper 1 supplement)
+# Zenodo deposit — dtSFM v3 supporting data
 
-The large dtSFM Paper 1 data — generated candidate pools, AlphaFold-3 cofold
+The large dtSFM v3 supporting data — generated candidate pools, AlphaFold-3 cofold
 structures, affinity-calibration cohorts, and the atpE pilot — are archived on
 Zenodo (too large for git). See [`CONTENTS_MANIFEST.md`](CONTENTS_MANIFEST.md)
 for the file list and [`DEPOSIT_INFO.md`](DEPOSIT_INFO.md) for the contents of

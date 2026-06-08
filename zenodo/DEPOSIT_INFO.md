@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | DOI | [10.5281/zenodo.20581780](https://doi.org/10.5281/zenodo.20581780) |
-| Title | dtSFM v3 — candidate pools and AlphaFold-3 verification (Paper 1 supplement) |
+| Title | dtSFM v3 — candidate pools and AlphaFold-3 verification |
 | License | CC-BY-4.0 |
 
 ## Bundles (≈1.3 GB)
