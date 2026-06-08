@@ -3,6 +3,7 @@
 | File | Description |
 |------|-------------|
 | `supp_table_S1_design_smiles.tsv` | Per-design SMILES for the 16-target generative gallery, with drug-likeness (Ro5), AlphaFold-3 iPTM / interface-PAE, Tanimoto-to-anchor, and structural-alert (ChemFlag) annotations. |
+| `figS6_structural_gallery.pdf` | **Supplementary Figure S6** — full structural-validation gallery (17 pp.): a wall of all 16 targets with up to 10 decoder designs each (blue) overlaid on the approved drug (orange) in the AlphaFold-3 cofold pocket, with per-design iPTM/PAE, followed by one detail page per target. Hosted here because it is too large to embed in the main PDF; the preprint links to it. |
 
 ## Notes
 
