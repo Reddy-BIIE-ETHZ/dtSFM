@@ -16,7 +16,7 @@ pipeline_tag: feature-extraction
 
 # dtSFM-v3 — Drug–Target Specificity Foundation Model (production encoder + generative decoder)
 
-**Paper:** *A drug–target specificity foundation model for off-target prediction, repurposing, and generative design* · doi: PENDING
+**Paper:** *A drug–target specificity foundation model for off-target prediction, repurposing, and generative design* · doi: 10.64898/2026.06.08.730844
 **Code:** [github.com/Reddy-BIIE-ETHZ/dtSFM](https://github.com/Reddy-BIIE-ETHZ/dtSFM)
 **All SFM models:** [huggingface.co/SFM-BIIE-ETHZ](https://huggingface.co/SFM-BIIE-ETHZ)
 
@@ -103,7 +103,7 @@ Binder gate: iPTM ≥ 0.7 AND interface-PAE ≤ 5 Å. Anchor-grade gate: iPTM �
   author  = {Reddy, Sai T.},
   journal = {bioRxiv},
   year    = {2026},
-  doi     = {PENDING}
+  doi     = {10.64898/2026.06.08.730844}
 }
 ```
 
